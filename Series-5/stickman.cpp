@@ -2,33 +2,37 @@
 #include <string>
 #include <vector>
 #include <cstdio>
-// stoi :: invalid_argument
-// did not update the time after 
-// mitoni time ro az jens master begiri 
+// pol khob kar nemikone 
+// damage khob kar nemide 
+// ------Leader-Board-----
+// shayad braye khroji tavabe niyaz bashe ke \n bezarim ... ?
+// delete to manage the memory :: benazar miyad in kar momken nist chon bayad chack kone morde ya na  
 using namespace std ;
 string s ;
  struct src {
 	 int second ; 
 	 int msecond ; 
-	 int last_second ; 
-	 int last_msecond ; 
+	 //int last_second = 0 ; 
+	 //int last_msecond = 0 ; 
 	 string strings[10] ; 
 	 int ints[10] ;
+	 int num_update = 0 ;
 //	 int id[3] ;//h ,  main_money , total , num_person 
 }t ;
 class master{
 	public : 
-int unit ; 
-int j ; 
-int money ; 
-int zarbe ; 
-int t ; 
-int type ; 
-int idx ; 
-int active ;
-// zaman Akharin update
-int second ; 
-int msecond ;
+		int unit ; 
+		int j ; 
+		int money ; 
+		int zarbe ; 
+		int t ; 
+		int type ; 
+		int idx ; 
+		int active ;
+		// zaman ezafe shodan 
+		int second ; 
+		int msecond ;
+		int num_update ;
 };
 class miner : public master {
 	public :
@@ -36,7 +40,7 @@ class miner : public master {
 		type = 1 ;
 	unit = 1; 
 	j = 100 ; 
-	money = 120 ; 
+	money = 150 ; 
 	zarbe = 100 ; // inja zarbe seke ke mine mishe hast
 	t = 10 ; 	
 	}
@@ -78,7 +82,7 @@ class spearton : public master {
 class magikill : public master {
 	public : 
 	magikill(){
-	type = 5 ;
+	type = 5 ;	
 	unit = 4 ; 
 	j = 80 ; 
 	money = 1200 ; 
@@ -100,10 +104,33 @@ class giant : public master {
 vector<master*>db ; 
 void update(struct src * t,int * num_money, int * h){
 //bayad roye hame itterate konim 
+// bayad tedad tanavob hayei ke az aval gozashte hesab beshe ... va dar nahayat in adadro dar dar pol zarb konim va jam bezanim hamaro
+// t = time-alan - time estekhdam 
+// carry = t%tanavob
+// t - carry 
+// t/tanavob
+
 	for(auto& x : db ){
+			if(x->j > 0 ){
 		if(x->type == 1) {
 			if(x->active == 1){
-				if((t->second - x->second) >=(x->t)*60){
+				int sub = t->second - x->second ;
+				int carry = sub % x->t ; 
+		 		sub /= x->t ; 
+				if(carry == 0){
+					if((t->msecond - x->msecond ) < 0){
+						sub -= 1 ;
+					}
+				}
+					sub -= x->num_update ;
+				if(sub > 0 ){
+					//it mean it's time for update ... 
+					(x->num_update) += sub ; 
+					sub = sub * (x->zarbe) ;
+					*(num_money) += sub ; 
+				}
+				/*
+				if((t->second - x->second) >=(x->t)){
 					if((t->msecond - x->msecond) >=0){
 					       //it means it's time for update ... 
 						num_money += x->zarbe ; 
@@ -111,69 +138,100 @@ void update(struct src * t,int * num_money, int * h){
 						x->msecond = t->msecond ; 
 					}	
 				}
+				*/
+			}
 		}else{
-				if((t->second - x->second) >=(x->t)*60){
-					if((t->msecond - x->msecond) >=0){
+				int sub = t->second - x->second ;
+				int carry = sub % x->t ; 
+		 		sub /= x->t ; 
+				if(carry == 0){
+					if((t->msecond - x->msecond ) < 0){
+						sub -= 1 ;
+					}
+				}
+					sub -= x->num_update ;
+				if(sub > 0 ){
+					//it mean it's time for update ... 
+					(x->num_update) += sub ; 
+					sub = sub * (x->zarbe) ;
+					*(h) -= sub ; 
+				}
+			}
+			/*
+				if((t->second - x->second) >=(x->t)){
+					if((t->msecond - x->msecond) >= 0){
 					       //it means it's time for update ... 
 						*h -= x->zarbe ; 
 						x->second = t->second ; 
 						x->msecond = t->msecond ; 
 					}	
 				}
+				*/
 			}	
 		}
-	}
 	//---Money---
 // miner ++ (done) 
 // add -- (done) 
 // time ++ 
 // We need somewhere to store the last update ... 
-if((t->second - t->last_second) >= 1200 ){
-	if((t->last_msecond - t->msecond) >= 0 ){
+//cout << t->second << " " << t->last_second << "\n" ; 
+//cout << t->msecond << " " << t->last_msecond << "\n" ; 
+				int sub = t->second  ;
+		 		sub /= 20 ;
+				sub -= t->num_update;
+				if(t->msecond >= 1){
+				if(sub > 0 ){
+					//it mean it's time for update ... 
+					(t->num_update) += sub ; 
+					sub = sub * (180) ;
+					*(num_money) += sub ; 
+				}
+				}
+/*
+if((t->second - t->last_second) >= 20 ){
+	if((t->msecond - t->last_msecond) >= 0 ){
 		t->last_msecond = t->msecond ; 
 		t->last_second = t->second ; 
-		num_money += 180 ; 
+		*num_money += 180 ; 
 	}
 }
+*/
 }
 // I write this function and put it in each of these 5 functions to update the money in each round ...
 	//---h--- we do that above code ... 
 void addd(struct src *t,int *h , int *num_money , int *total , int *idx , int *num_miner ){	
-	char c = t->strings[1][2]  ; 
+	string s  = t->strings[0] ;
+	char c = s[2] ;
 	update(t,num_money,h);
 	master* y = nullptr ; 
 	switch(c){
 		// to make it even faster I make another hash with the third charater
 		case 'n':{
-			miner* x = new miner()  ; 
-			y = x ; 
+			y = new miner()  ; 
 			break ; 
 			 }
 		case 'o':{
-			swordwarth* x = new swordwarth() ; 
-			y = x ; 
+			y = new swordwarth() ; 
 			break ; 
 			 }
 		case 'c':{
-			archidon* x = new archidon() ; 
-			y = x ; 
+			y = new archidon() ; 
 			break ; 
 			 }
 		case 'e':{
-			spearton* x = new spearton() ; 
-			y = x ; 
+			y = new spearton() ; 
 			break ; 
 			 }
 		case 'g':{
-			magikill* x = new magikill() ; 
-			y = x ; 
+			y = new magikill() ; 
 			break ; 
 			 }
 		case 'a':{
-			giant* x = new giant(); 
-			y = x ; 
+			y = new giant(); 
 			break ;
 			 } 
+	}
+
 int flag = 1 ; 
 	if( *h <= 0 ) {
 		flag = 0 ; 
@@ -182,8 +240,8 @@ int flag = 1 ;
 	if(flag){
 		if(*num_money < y->money ){
 			cout << "not enough money" ;
-		}
 		flag = 0 ;
+		}
 	}
 	if(flag){
 		if( *total >  50 ){
@@ -191,7 +249,6 @@ int flag = 1 ;
 		flag = 0 ; 
 		}
 	}
-	
 	if(flag){
 		y->idx = *idx ; 
 		if(y->type == 1 )
@@ -202,25 +259,27 @@ int flag = 1 ;
 				y->active = 0 ;
 			}
 
-			*(num_miner)++; 
+			*(num_miner) += 1; 
 		}
+			y->num_update = 0 ;
 			y->second = t->second; 
 			y->msecond = t->msecond ;
 			*total += y->unit ; 
 			db.push_back(y) ; 
 			*num_money -= y->money ; 
 			cout << *idx ; 
-			*(idx)++ ; 
+			*(idx) += 1 ; 
 		}
-}
+			delete y ; 
 }
 void damage(struct src * t,int *h , int *num_money , int *total , int *idx , int * num_miner) {
 	update(t,num_money,h);
+	t->ints[0] = stoi(t->strings[0]);
+	t->ints[1] = stoi(t->strings[1]);
 
 // Maybe it does not have some optimize search because doing itteration on db is expensive
 // Maybe it was better to have a specialized db for each role ... 
-
-	int flag = 1 ;
+int flag = 1 ;
 	if(*h <= 0 ) {
 		flag = 0 ; 
 		cout << "game over" ; 
@@ -228,19 +287,26 @@ void damage(struct src * t,int *h , int *num_money , int *total , int *idx , int
 	master* y = nullptr ; 
 	if(flag){
 		for(auto& x : db ){
-			if(x->idx == *idx){
+			if(x->idx == t->ints[0]){
 			 	y = x ;
+				break ;
 			}
+		}
 		if(y == nullptr ){
 			flag = 0 ;
+			// if you did not find it ... 
 		}	
+		if(flag){
 		if(y->j <= 0 ){
 			flag = 0;
 		}
+		}
+		
 		if(!flag){
 			cout << "no matter" ;
+			return;
 		}
-		}
+		
 	}
 	if(flag){
 		y->j -= t->ints[1] ; 
@@ -249,27 +315,31 @@ void damage(struct src * t,int *h , int *num_money , int *total , int *idx , int
 			*total -= y->unit ; 
 				if(y->type == 1 ) {
 					if(y->active == 1){
+						y->active = 0 ;
 					if(*(num_miner) >= 9 ){
-					master* e; 
+						master *  x = nullptr ;
 						for(auto& x : db ){
 						int flag1 = 1 ;
 						if(flag1){
 						if(x->type == 1 ) {
 							if(x->active == 0){
-								e->active = 1 ;	
+								x->active = 1 ;	
 								flag1 = 0 ; 
 								}
 							}
 						}	
-						}}else{
-						*(num_miner)--;
+						}
+						delete x ; 
+					}else{
+						*(num_miner) -= 1 ;
 					}					
-			}
+				}
 			}
 		}else{
 		cout << y->j ; 
 		}
 			}
+			delete y ; 
 }
 void enemy_status(struct src *t,int *h,int * num_money){
 	update(t,num_money,h);
@@ -282,6 +352,9 @@ void enemy_status(struct src *t,int *h,int * num_money){
 	int c[5] ; 
 void army_status(struct src * t , int *h,int * num_money ){
 	update(t,num_money,h);
+	for(int i  = 0 ; i <= 5 ; ++i){
+		c[i] = 0 ;
+	}
 	int flag = 1; 
 	if(*h <= 0 ) {
 		flag = 0  ;
@@ -330,8 +403,8 @@ int main_money = 500 ;
 int q , h ; 
 int idx = 1; 
 int num_miner  = 0 ;
-cin >> q >> h ; 
-for(int i = 0 ; i <= q ; ++i ){
+scanf("%d %d\n",&q,&h);
+for(int i = 0 ; i <  q ; ++i ){
 	getline(cin, s) ;
 
 	int j = 0 ; 
@@ -361,50 +434,49 @@ for(int i = 0 ; i < j ; i++ ){
 
 		// ---I Love HASHING---
 		//I can use the first character and the length which I have No collision at all .
-		
+		//cout << l ; 
 // try to parse the time 
 //sscanf(t.strings[j-1] , "%s:%s:%s" , t.min.data() , t.second.data() , t.second.data());
 // there is a feature that is the same over all inputs and that is we have 2 character for min ,2 for second and 3 for msecond
 }
-string buffer ; 
+string buffer = "" ; 
 int num ; 
-int B[] = {0,2,5,9} ;
-int w = 0;
-int flag2 = 1 ; 
+int B[] = {-1,2,5,9} ;
 for(int i = 0 ; i < 3 ; i++){
-	buffer = t.strings[l-1].substr(B[i]+1 , (B[i+1] - B[i]-1));
+
+	//cout << l ;
+	//cout << t.strings[l-1] ; 
+	buffer = t.strings[l-1].substr(B[i]+1, (B[i+1] - B[i]-1));
+	//cout << buffer << "\n";
 	num = stoi(buffer);
-	if(!w){
+	//cout << num << "\n" ;
+	
+	if(i == 0 ){
 		// We initialize the last_second for each ten second update in money
 		t.second = num*60 ;
-		w++; 
-	}else if(w = 1){
-		t.second += num ; 
-		w++;
-	}else{
-		t.msecond = num  ;
-				w++ ; 
 	}
-	t.last_second = 0 ;
-	t.last_msecond = 0 ;
+
+	if(i == 1){
+		t.second  += num ; 
+	}
+
+	if(i == 2){
+		t.msecond = num  ;
+	}
+
 }
 // another parser for strings to ints 
-int z = 0; 
-for(int i = 0 ; i < l-1 ; ++i ) {
-	if(t.strings[i][0] <= 122 && t.strings[i][0] >= 97 ){
-		// yeah it's a number ...
-	t.ints[z] = stoi(t.strings[i]);
-	z++; 
-	}
-}
+//
+
 int hash_score = (int) s[0];
-if(hash_score == 12 ){
-	if((int)s[0] == 101 ) {
-	hash_score = 101 ;  
+if(hash_score == 97 ){
+	if((int)s[1] == 100) {
+	hash_score = 102 ;  
 	}else{
-		hash_score = 109 ; 
+		hash_score = 114; 
 	}
 }
+
 /*
 t.id[0] = &h ; 
 t.id[1] = &main_money ; 
@@ -412,16 +484,16 @@ t.id[2] = &total ;
 t.id[3] = &num_person ; 
 */
 	switch(hash_score){
-		case 3:
+		case 102:
 			addd(&t,&h,&main_money,&total,&idx,&num_miner);
 			break;		
-		case 6:
+		case 100:
 			damage(&t,&h,&main_money,&total,&idx,&num_miner);
 			break;
 		case 101:
 			enemy_status(&t,&h,&main_money);
 			break;
-		case 11:  
+		case 114:  
 			army_status(&t,&h,&main_money);
 			break;
 		case 109:
@@ -434,4 +506,3 @@ t.id[3] = &num_person ;
 	}
 }
 }
-

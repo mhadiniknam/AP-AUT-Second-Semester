@@ -1,2 +1,4 @@
-# AP-AUT-term-2
-The repo for this term project and code
+# My Second Semester Advanced Programming
+
+Reach out to this link for instructional Materials
+- https://github.com/federico-busato/Modern-CPP-Programming/

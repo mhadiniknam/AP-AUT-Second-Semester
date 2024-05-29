@@ -3,6 +3,10 @@
 Reach out to this link for instructional Materials
 - https://github.com/federico-busato/Modern-CPP-Programming/
 
+## Some C++ documentation 
+- https://cplusplus.com/
+- https://en.cppreference.com
+
 ## To orginaze the project 
 > I plan to make the output code of each series into the some standard type of the directory
 > 1. bin : the output of the project

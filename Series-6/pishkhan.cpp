@@ -18,7 +18,6 @@ class Restaurant{
 		// n is the number of evidence 
 		// m is the number of foods 
 		// k is the table 
-		string s ; 
 		struct src t ;
 		int A[100] ; 
 		map<string , int> foods;
@@ -26,25 +25,33 @@ class Restaurant{
 		string buf2 ; 
 		char bufc ; 
 		int bufn ; 
-		map<int, vector<int>> table ;// 2D array/ [0] : capacity , [1] : money , [2] : payment_num
+		//map<int, vector<int>> table ;// 2D array/ [0] : capacity , [1] : money , [2] : payment_num , [3] : second , [4] : msecond
+		int table[200][4] = {} ;
+		// from 1-100 is the table and the 100-200 is waiting list 
 		int money  = 0; 
 		int finalmoney = 0 ; 
 		int payment_num = 1 ;
 	public :
+		string s ; 
 		Restaurant(){
 			scanf("%d %d %d",&n,&m,&k);
-
 			// I make the menu here ...
 			for(int i = 0 ; i < m ; ++i){
 				cin >> buf1 >> buf2 ; 
 				bufn = stoi(buf2);	
 				foods[buf1] = bufn ;
 			}
-		for(int i = 0 ; i < k ; ++i){
-			cin >> table[i][0] ; 
-			table[i][1] = 0 ; 
-			table[i][2] = 0 ; 
-		}
+			for(int i = 0 ; i < k ; ++i){
+				cin >> table[i][0] ; 
+				/*
+				   table[i][1] = 0 ; 
+				   table[i][2] = 0 ; 
+				   table[i][3] = 0 ; 
+				   table[i][4] = 0 ; 
+				   */
+			}
+			cin >> bufc ; 
+			cout << bufc ;
 		}
 
 		void start(){
@@ -124,84 +131,123 @@ class Restaurant{
 						order(&t);  
 						break;		
 					case 2:
-						order-status(&t);
+						order_status(&t);
 						break;
 					case 112:
 						payment(&t);
 						break;
 					case 116:  
-						table-status(&t);
+						table_status(&t);
 						break;
 					case 103:
-						general-status(&t)
-							break;
-
-						for(int i = 0 ; i <= j ; i++){
-							A[j] = 0 ;
-						}
+						general_status(&t);
+						break;
 				}
+				for(int i = 0 ; i <= j ; i++){
+					A[i] = 0 ;
+				}
+
 			}
-
-
-
 		}
-void order(struct src *t ){
-	int l = t->l ; 
-	int flag = 1;
-	int bufn = stoi(t->strings[l-1]);
-	int table_index = 101 ;
-	int table_num = 16 ;// the maximu is 15
-	int i = 0; 	
-	int moneybuf = 0 ;
-	for(auto x : table){
-		if(x[0] >= bufn && x[0] < table_num){
-			if(x[2] == 0 ){
-				// this mean that the table is free 
-				table_index = i ; 
-				table_num = x[0] ; 	
-				flag = 0 ; 	
-			}else{
-				if(flag){
-					if(table_num == 16){
+		void order(struct src *t ){
+			int l = t->l ; 
+			int flag = 1;
+			int bufn = stoi(t->strings[l-1]);
+			int table_index = 101 ;
+			int table_num = 16 ;// the maximu is 15
+			int moneybuf = 0 ;
+			//
+			for(int i = 0 ; i <= 100 ; i++){
+				if(table[i][0] >= bufn && table[i][0] < table_num){
+					if(table[i][2] == 0 ){
 						// this mean that the table is free 
 						table_index = i ; 
-						table_num = x[0] ; 
-					}	
+						table_num = table[i][0] ; 	
+						flag = 0 ; 	
+					}else{
+						if(flag){
+							// this mean that the table is free 
+							table_index = i ; 
+							table_num = table[i][0] ; 
+						}	
+					}
+				}
+			}
+			// i == k
+			if(table_index == 101 )
+			{
+				cout << "not enough seat." << "\n" ; 
+				// it mean there is no table with that amount 
+			}else{
+				for(int i = 0 ; i < (t->l-2) ; i++){
+					bufc = t->strings[l+1][t->strings[l+1].length() - 1];
+					buf1 = "" ;
+					buf1 = buf1 + bufc ; 
+					bufn = stoi(buf1) ; 
+					moneybuf += foods[t->strings[l+1]]*bufn ;
+				}
+
+				if(flag){
+					// this mean there is a table but it has been occupied 
+					for(int i = 101 ; i<= 200 ; i++){
+						if(table[i][2] == 0 ){
+							money += moneybuf ; 
+							table[table_index][1] += moneybuf ; 
+							table[table_index][2] += payment_num ; 
+							payment_num++ ;
+							break ;
+						}
+					}
+				cout << "please wait for free table." << "\n" ; 
+			}else{
+				money += moneybuf ; 
+				table[table_index][1] += moneybuf ; 
+				table[table_index][2] += payment_num ; 
+				table[table_index][3] += t->second ; 
+				table[table_index][4] += t->msecond ; 
+				payment_num++ ; 
+				cout << "please sit at table number " << table_index << "." << "\n"; 
+			}
+		}
+		}
+
+		void payment(struct src *t){
+			bufn = stoi(t->strings[1]);
+			int n = 101; 
+			for(int i = 0 ; i <= 200 ; i++){
+				if(table[i][2] == bufn){
+					n = i ; 
+					break;
+				}
+			}
+			if(n > 100 ){
+				cout << "pays after eating." << "\n" ; 	
+			}else{
+				bufn = table[n][1] ; 
+				for(int i = 101 ; i <= 200 ; i++){
+					if(table[i][0] <= bufn){
+						cout << "you should pay " << table[n][1] ; 
+						table[n][1] += table[i][1] ; 
+						table[n][2] += table[i][2]; 
+						table[n][3] += t->second + 120 ; 
+						table[n][4] += t->msecond ;
+						table[i][1] = 0 ; 
+						table[i][2] = 0 ;
+						break ; 
+					}
 				}
 			}
 		}
-		i++ ; 
-	}
-	// i == k
-	if(table_index == 101 )
-	{
-		cout << "not enough seat." << "\n" ; 
-	}else{
-		if(flag){
-			cout << "please wait for free table." << "\n" ; 
-		}else{
-			for(int i = 0 ; i < (t->l-2) ; i++){
-				bufc = t->strings[l+1][t->strings[l+1].length() - 1];
-				buf1 = "" ;
-				buf1 = buf1 + bufc ; 
-				bufn = stoi(buf1) ; 
-				moneybuf += foods[t->strings[l+1]]*bufn ;
-			}
-			money += moneybuf ; 
-			table[table_index][1] += moneybuf ; 
-			table[table_index][2] += payment_num ; 
-			payment_num++ ; 
-			cout << "please sit at table number " << table_index << "." << "\n"; 
-		}
-	}
-
-}
+		void order_status(struct src *t){}
+		void table_status(struct src *t){}
+		void general_status(struct  src *t){}
 };
 
 int main(){
 
 	// there is also another way to parsing the input string and that is to use the find method ...
 	Restaurant restaurant ;
+	restaurant.start();
 	//restaurant.
 
 }

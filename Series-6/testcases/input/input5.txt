@@ -1,0 +1,15 @@
+10 3 5
+pizza 6
+salad 6
+sandwich 5
+5 5 2 1 2 
+general-status 12:01:00
+order sandwichX11 2 12:02:00
+general-status 12:03:00
+table-status 4 12:04:00
+payment 1 12:05:00
+order pizzaX5 2 12:06:00
+payment 2 12:07:00
+order sandwichX2 7 12:08:00
+order-status 2 12:09:00
+order-status 1 12:10:00

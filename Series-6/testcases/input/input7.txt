@@ -1,0 +1,30 @@
+20 8 10
+pizza 10
+salad 4
+sandwich 7
+bread 6
+steak 10
+fish 8
+shrimp 9
+rice 9
+14 2 2 15 5 15 10 6 7 14 
+order breadX1 5 12:01:00
+payment 1 12:02:00
+order fishX9 1 12:03:00
+order fishX13 13 12:04:00
+payment 3 12:05:00
+payment 2 12:06:00
+order fishX13 7 12:07:00
+order fishX8 12 12:08:00
+payment 5 12:09:00
+payment 4 12:10:00
+order fishX7 6 12:11:00
+order riceX6 14 12:12:00
+order steakX2 2 12:13:00
+order fishX11 10 12:14:00
+order sandwichX2 7 12:15:00
+payment 9 12:16:00
+order riceX13 8 12:17:00
+order sandwichX14 4 12:18:00
+payment 12 12:19:00
+payment 11 12:20:00

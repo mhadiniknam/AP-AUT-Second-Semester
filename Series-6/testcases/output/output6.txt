@@ -1,0 +1,20 @@
+please sit at table number 5.
+you should pay 120 Toman.
+please sit at table number 6.
+please sit at table number 1.
+you should pay 13 Toman.
+you should pay 45 Toman.
+please sit at table number 2.
+you should pay 18 Toman.
+please sit at table number 4.
+you should pay 65 Toman.
+please sit at table number 5.
+you should pay 36 Toman.
+please sit at table number 6.
+please sit at table number 4.
+you should pay 66 Toman.
+you should pay 4 Toman.
+please sit at table number 1.
+you should pay 8 Toman.
+please sit at table number 5.
+please sit at table number 6.

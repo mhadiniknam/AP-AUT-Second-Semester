@@ -14,7 +14,7 @@ struct src {
 	int l ; 
 }t;
 //int table[200][4] ;
-array<array <int , 4> , 200 > table ;// I don't know why but I reduce two RUNTIME ERROR AS WELL  
+array<array <int , 5> , 200 > table ;// I don't know why but I reduce two RUNTIME ERROR AS WELL  
 int last = 101 ;
 int n , m , k ; 
 // n is the number of evidence 
@@ -37,7 +37,15 @@ int bufn ;
 int money  = 0; 
 int finalmoney = 0 ; 
 int payment_num = 1 ;
-
+int debugmode = 0; 
+void foring(){
+			for(int i = 0 ; i < k ; i++ ){		
+						cout << table[i][0] <<  " "  ; 
+						cout << table[i][1] << " "  ;
+						cout << table[i][2]  << " "  ;
+						cout << table[i][3] << endl ; 
+					}
+		}
 class Restaurant{
 	private:
 	public :
@@ -148,14 +156,11 @@ class Restaurant{
 				/*  
 				 *
 				 * MONITOR THE TABLES 
-				 *
-				 for(int i = 0 ; i < 5 ; i++ ){		
-				 cout << table[i][0] <<  " "  ; 
-				 cout << table[i][1] << " "  ;
-				 cout << table[i][2]  << " "  ;
-				 cout << table[i][3] << endl ; 
-				 }
-			 	*/	 
+				 */
+				if(debugmode){
+					foring(); 
+				}
+			 		 
 
 
 				switch(hash_score){
@@ -202,6 +207,7 @@ class Restaurant{
 				cout << "You are trying to convert " << t->strings[l-2]<< "into integer " << endl ;
 				// You can also log the error or take appropriate action here
 			}
+				int cap = bufn ;
 			int table_index = 101 ;
 			int moneybuf = 0 ;
 			int seen = 0 ; 
@@ -275,6 +281,7 @@ class Restaurant{
 					// this mean there is a table but it has been occupied 
 					money += moneybuf ; 
 					//cout << moneybuf ;
+					table[last][0] = cap ; 
 					table[last][1] = moneybuf ; 
 					table[last][2] = payment_num ; 
 					payment_num++ ;
@@ -325,7 +332,7 @@ class Restaurant{
 				}
 			}
 
-		void payment(struct src *t){
+				void payment(struct src *t){
 			//cout << table[i][0] <<" " << bufn <<" "<<table_num << " "<< table[i][2] << "//" ;
 			string s1 = t->strings[0] ;
 			if(s1[1] == 32){
@@ -346,19 +353,22 @@ class Restaurant{
 			if(n > 100 ){
 				cout << "pays after eating." << "\n" ; 	
 			}else{
+						if(( table[n][3] && (( t->second- table[n][3] )>= 0 ) && (table[n][4]-(t->msecond) >= 0 ))|| !(table[n][3])){
 				bufn = table[n][1] ; 
 				cout << "you should pay " << bufn << " Toman." << endl ; 
 				finalmoney += bufn ;
-
 				table[n][3] = t->second + 2 ; 
 				table[n][4] = t->msecond ;
 				table[n][2] = 0 ;
 				table[n][1] = 0 ;
+
 				eating--; 
 				ended++ ;
 				EatingTable-- ; 
 				ServiceTable++ ;
 				int flag2 = 1 ; 
+
+
 				for(int i = 101 ; i <= 200 ; i++){
 					if((table[i][2] != 0) &&  (table[i][0] <= table[n][0])){
 						// money_total must be updated
@@ -366,11 +376,15 @@ class Restaurant{
 						table[n][2] = table[i][2]; 
 						table[i][1] = 0 ; 
 						table[i][2] = 0 ;
+						table[i][0] = 0 ; 
 						wait-- ;
 						flag2 = 0 ; 
 						break ; 
 					}
 				}
+						}else{
+							cout << "pays after eating." << endl ; 
+						}
 			}
 		}
 		void order_status(struct src *t){
@@ -447,6 +461,7 @@ class Restaurant{
 				<< " " << FreeTable << " " <<ServiceTable << " " << EatingTable << endl ; 
 		}
 };
+
 
 int main(){
 

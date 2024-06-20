@@ -1,0 +1,1000 @@
+please sit at table number 3.
+you should pay 37016579 Toman.
+37016579 0 0 0 1 99 1 0
+not enough seat.
+37016579 0 0 0 1 99 1 0
+37016579 0 0 0 1 99 1 0
+DONE
+FREE
+not enough seat.
+37016579 0 0 0 1 99 1 0
+please sit at table number 1.
+EATING
+DONE
+you should pay 69447950 Toman.
+please sit at table number 4.
+you should pay 59478414 Toman.
+DONE
+please sit at table number 8.
+please sit at table number 2.
+please sit at table number 14.
+DONE
+you should pay 53944974 Toman.
+you should pay 62549773 Toman.
+you should pay 52784143 Toman.
+335221833 0 0 0 6 94 6 0
+335221833 0 0 0 6 94 6 0
+FREE
+DONE
+DONE
+DONE
+DONE
+335221833 0 0 0 6 94 6 0
+FREE
+335221833 0 0 0 6 94 6 0
+DONE
+please sit at table number 21.
+FREE
+please sit at table number 22.
+you should pay 53497006 Toman.
+FREE
+you should pay 53591304 Toman.
+442310143 0 0 0 8 92 8 0
+442310143 0 0 0 8 92 8 0
+not enough seat.
+DONE
+FREE
+not enough seat.
+not enough seat.
+442310143 0 0 0 8 92 8 0
+DONE
+FREE
+FREE
+442310143 0 0 0 8 92 8 0
+442310143 0 0 0 8 92 8 0
+DONE
+DONE
+442310143 0 0 0 8 92 8 0
+DONE
+442310143 0 0 0 8 92 8 0
+442310143 0 0 0 8 92 8 0
+not enough seat.
+442310143 0 0 0 8 92 8 0
+442310143 0 0 0 8 92 8 0
+DONE
+442310143 0 0 0 8 92 8 0
+FREE
+not enough seat.
+please sit at table number 5.
+you should pay 55796926 Toman.
+please sit at table number 24.
+498107069 49917231 0 1 9 90 9 1
+you should pay 49917231 Toman.
+please sit at table number 3.
+you should pay 52262637 Toman.
+600286937 0 0 0 11 90 10 0
+please sit at table number 11.
+you should pay 50568517 Toman.
+FREE
+please sit at table number 6.
+DONE
+650855454 47981280 0 1 12 88 11 1
+650855454 47981280 0 1 12 88 11 1
+PENDING
+please sit at table number 19.
+please sit at table number 1.
+you should pay 47587824 Toman.
+please sit at table number 4.
+you should pay 45395054 Toman.
+you should pay 47981280 Toman.
+please sit at table number 35.
+you should pay 56807453 Toman.
+please sit at table number 7.
+please sit at table number 2.
+848627065 142336956 0 3 16 87 10 3
+you should pay 61044379 Toman.
+DONE
+you should pay 44589451 Toman.
+954260895 36703126 0 1 18 87 12 1
+FREE
+DONE
+you should pay 36703126 Toman.
+990964021 0 0 0 19 87 13 0
+990964021 0 0 0 19 87 13 0
+990964021 0 0 0 19 87 13 0
+990964021 0 0 0 19 87 13 0
+not enough seat.
+please sit at table number 14.
+you should pay 51032296 Toman.
+1041996317 0 0 0 20 87 13 0
+FREE
+1041996317 0 0 0 20 88 12 0
+FREE
+FREE
+DONE
+1041996317 0 0 0 20 88 12 0
+not enough seat.
+please sit at table number 8.
+you should pay 43734975 Toman.
+1085731292 0 0 0 21 87 13 0
+1085731292 0 0 0 21 87 13 0
+1085731292 0 0 0 21 87 13 0
+1085731292 0 0 0 21 87 13 0
+please sit at table number 21.
+you should pay 68908024 Toman.
+1154639316 0 0 0 22 86 14 0
+1154639316 0 0 0 22 86 14 0
+1154639316 0 0 0 22 86 14 0
+1154639316 0 0 0 22 86 14 0
+1154639316 0 0 0 22 86 14 0
+1154639316 0 0 0 22 86 14 0
+DONE
+FREE
+1154639316 0 0 0 22 86 14 0
+1154639316 0 0 0 22 86 14 0
+1154639316 0 0 0 22 86 14 0
+not enough seat.
+FREE
+1154639316 0 0 0 22 86 14 0
+1154639316 0 0 0 22 87 13 0
+1154639316 0 0 0 22 87 13 0
+please sit at table number 5.
+FREE
+you should pay 31710592 Toman.
+1186349908 0 0 0 23 88 12 0
+FREE
+1186349908 0 0 0 23 88 12 0
+DONE
+please sit at table number 3.
+please sit at table number 10.
+you should pay 49959287 Toman.
+you should pay 45774399 Toman.
+1282083594 0 0 0 25 87 13 0
+FREE
+DONE
+1282083594 0 0 0 25 87 13 0
+DONE
+not enough seat.
+1282083594 0 0 0 25 89 11 0
+1282083594 0 0 0 25 90 10 0
+FREE
+1282083594 0 0 0 25 91 9 0
+1282083594 0 0 0 25 91 9 0
+DONE
+1282083594 0 0 0 25 91 9 0
+1282083594 0 0 0 25 92 8 0
+1282083594 0 0 0 25 92 8 0
+please sit at table number 2.
+1282083594 65783576 0 1 25 92 7 1
+you should pay 65783576 Toman.
+1347867170 0 0 0 26 92 8 0
+FREE
+1347867170 0 0 0 26 93 7 0
+1347867170 0 0 0 26 93 7 0
+1347867170 0 0 0 26 93 7 0
+DONE
+1347867170 0 0 0 26 93 7 0
+FREE
+FREE
+1347867170 0 0 0 26 94 6 0
+please sit at table number 1.
+you should pay 40447854 Toman.
+1388315024 0 0 0 27 93 7 0
+1388315024 0 0 0 27 93 7 0
+FREE
+1388315024 0 0 0 27 93 7 0
+please sit at table number 4.
+you should pay 38860531 Toman.
+not enough seat.
+1427175555 0 0 0 28 93 7 0
+1427175555 0 0 0 28 93 7 0
+1427175555 0 0 0 28 93 7 0
+please sit at table number 6.
+1427175555 59468369 0 1 28 92 7 1
+you should pay 59468369 Toman.
+1486643924 0 0 0 29 93 7 0
+1486643924 0 0 0 29 93 7 0
+1486643924 0 0 0 29 93 7 0
+1486643924 0 0 0 29 93 7 0
+please sit at table number 7.
+DONE
+not enough seat.
+1486643924 36184109 0 1 29 92 7 1
+please sit at table number 14.
+1486643924 82270188 0 2 29 91 7 2
+you should pay 36184109 Toman.
+you should pay 46086079 Toman.
+1568914112 0 0 0 31 91 9 0
+1568914112 0 0 0 31 91 9 0
+please sit at table number 21.
+FREE
+please sit at table number 8.
+please sit at table number 9.
+please sit at table number 19.
+FREE
+please sit at table number 22.
+1568914112 241656560 0 5 31 87 8 5
+you should pay 24808522 Toman.
+not enough seat.
+you should pay 54950334 Toman.
+please sit at table number 3.
+please sit at table number 5.
+you should pay 27109403 Toman.
+DONE
+please sit at table number 35.
+you should pay 51069195 Toman.
+you should pay 50283215 Toman.
+BUSY
+FREE
+please sit at table number 10.
+you should pay 37616275 Toman.
+please sit at table number 24.
+please sit at table number 11.
+please sit at table number 28.
+please sit at table number 20.
+not enough seat.
+please sit at table number 17.
+you should pay 61583111 Toman.
+1876334167 443745181 0 7 38 80 13 7
+you should pay 87011237 Toman.
+1963345404 356733944 0 6 39 81 13 6
+you should pay 44124757 Toman.
+you should pay 56163834 Toman.
+you should pay 79670984 Toman.
+you should pay 41986068 Toman.
+you should pay 66069783 Toman.
+please sit at table number 23.
+FREE
+not enough seat.
+you should pay 68718518 Toman.
+EATING
+2320079348 45094886 0 1 45 81 18 1
+you should pay 45094886 Toman.
+2365174234 0 0 0 46 81 19 0
+please sit at table number 41.
+2365174234 43955755 0 1 46 80 19 1
+2365174234 43955755 0 1 46 80 19 1
+2365174234 43955755 0 1 46 81 18 1
+not enough seat.
+you should pay 43955755 Toman.
+please sit at table number 4.
+not enough seat.
+you should pay 38040012 Toman.
+not enough seat.
+FREE
+please sit at table number 27.
+2447170001 45304292 0 1 48 80 19 1
+not enough seat.
+not enough seat.
+2447170001 45304292 0 1 48 80 19 1
+2447170001 45304292 0 1 48 80 19 1
+2447170001 45304292 0 1 48 80 19 1
+please sit at table number 36.
+you should pay 45304292 Toman.
+you should pay 41998248 Toman.
+please sit at table number 2.
+2534472541 29808103 0 1 50 80 19 1
+please sit at table number 1.
+FREE
+not enough seat.
+you should pay 53416562 Toman.
+you should pay 29808103 Toman.
+please sit at table number 14.
+FREE
+2617697206 71053814 0 1 52 78 21 1
+you should pay 71053814 Toman.
+2688751020 0 0 0 53 78 22 0
+please sit at table number 7.
+not enough seat.
+you should pay 53733175 Toman.
+not enough seat.
+2742484195 0 0 0 54 79 21 0
+DONE
+2742484195 0 0 0 54 80 20 0
+please sit at table number 22.
+please sit at table number 8.
+2742484195 87117522 0 2 54 80 18 2
+you should pay 43330463 Toman.
+you should pay 43787059 Toman.
+DONE
+2829601717 0 0 0 56 81 19 0
+DONE
+2829601717 0 0 0 56 81 19 0
+please sit at table number 35.
+you should pay 65217230 Toman.
+2894818947 0 0 0 57 80 20 0
+please sit at table number 40.
+DONE
+2894818947 46723082 0 1 57 80 19 1
+2894818947 46723082 0 1 57 81 18 1
+please sit at table number 20.
+you should pay 46723082 Toman.
+please sit at table number 45.
+please sit at table number 5.
+you should pay 61430274 Toman.
+please sit at table number 3.
+DONE
+3002972303 145632456 0 3 59 82 15 3
+DONE
+you should pay 32804716 Toman.
+you should pay 57086791 Toman.
+please sit at table number 9.
+you should pay 55740949 Toman.
+you should pay 36786705 Toman.
+please sit at table number 21.
+you should pay 42020090 Toman.
+3227411554 0 0 0 64 82 18 0
+3227411554 0 0 0 64 82 18 0
+3227411554 0 0 0 64 82 18 0
+please sit at table number 6.
+you should pay 34862625 Toman.
+please sit at table number 10.
+DONE
+please sit at table number 4.
+please sit at table number 11.
+BUSY
+FREE
+please sit at table number 41.
+please sit at table number 12.
+you should pay 66064586 Toman.
+not enough seat.
+3328338765 216085340 0 4 66 78 18 4
+you should pay 72719755 Toman.
+you should pay 40280406 Toman.
+you should pay 60351222 Toman.
+you should pay 42733957 Toman.
+please sit at table number 19.
+FREE
+you should pay 41906881 Toman.
+3586330986 0 0 0 71 79 21 0
+3586330986 0 0 0 71 80 20 0
+3586330986 0 0 0 71 81 19 0
+please sit at table number 1.
+DONE
+not enough seat.
+you should pay 33741104 Toman.
+not enough seat.
+FREE
+3620072090 0 0 0 72 81 19 0
+3620072090 0 0 0 72 82 18 0
+3620072090 0 0 0 72 82 18 0
+please sit at table number 14.
+PENDING
+please sit at table number 2.
+you should pay 38079860 Toman.
+please sit at table number 24.
+you should pay 57400971 Toman.
+please sit at table number 8.
+you should pay 46598429 Toman.
+FREE
+you should pay 73904096 Toman.
+3836055446 0 0 0 76 80 20 0
+3836055446 0 0 0 76 80 20 0
+FREE
+3836055446 0 0 0 76 81 19 0
+3836055446 0 0 0 76 81 19 0
+3836055446 0 0 0 76 81 19 0
+please sit at table number 22.
+you should pay 60612303 Toman.
+3896667749 0 0 0 77 80 20 0
+FREE
+3896667749 0 0 0 77 81 19 0
+3896667749 0 0 0 77 81 19 0
+FREE
+not enough seat.
+3896667749 0 0 0 77 82 18 0
+please sit at table number 23.
+not enough seat.
+3896667749 32090322 0 1 77 81 18 1
+you should pay 32090322 Toman.
+3928758071 0 0 0 78 83 17 0
+please sit at table number 3.
+please sit at table number 5.
+you should pay 39983741 Toman.
+please sit at table number 20.
+not enough seat.
+DONE
+DONE
+you should pay 46963059 Toman.
+you should pay 45667462 Toman.
+not enough seat.
+DONE
+4061372333 0 0 0 81 84 16 0
+please sit at table number 21.
+you should pay 66895869 Toman.
+DONE
+please sit at table number 28.
+4128268202 42281796 0 1 82 82 17 1
+PENDING
+4128268202 42281796 0 1 82 83 16 1
+you should pay 42281796 Toman.
+4170549998 0 0 0 83 83 17 0
+DONE
+4170549998 0 0 0 83 85 15 0
+not enough seat.
+DONE
+4170549998 0 0 0 83 87 13 0
+please sit at table number 4.
+you should pay 41467788 Toman.
+4212017786 0 0 0 84 87 13 0
+4212017786 0 0 0 84 87 13 0
+4212017786 0 0 0 84 87 13 0
+4212017786 0 0 0 84 87 13 0
+FREE
+FREE
+4212017786 0 0 0 84 88 12 0
+4212017786 0 0 0 84 88 12 0
+not enough seat.
+4212017786 0 0 0 84 88 12 0
+4212017786 0 0 0 84 88 12 0
+4212017786 0 0 0 84 88 12 0
+4212017786 0 0 0 84 88 12 0
+FREE
+4212017786 0 0 0 84 88 12 0
+4212017786 0 0 0 84 89 11 0
+4212017786 0 0 0 84 89 11 0
+DONE
+4212017786 0 0 0 84 90 10 0
+4212017786 0 0 0 84 91 9 0
+4212017786 0 0 0 84 91 9 0
+DONE
+4212017786 0 0 0 84 92 8 0
+please sit at table number 1.
+PENDING
+you should pay 48225816 Toman.
+4260243602 0 0 0 85 91 9 0
+4260243602 0 0 0 85 91 9 0
+FREE
+DONE
+4260243602 0 0 0 85 92 8 0
+please sit at table number 2.
+you should pay 46507460 Toman.
+4306751062 0 0 0 86 91 9 0
+DONE
+DONE
+FREE
+please sit at table number 14.
+you should pay 42255717 Toman.
+not enough seat.
+4349006779 0 0 0 87 91 9 0
+4349006779 0 0 0 87 91 9 0
+DONE
+DONE
+4349006779 0 0 0 87 92 8 0
+please sit at table number 3.
+4349006779 63927334 0 1 87 91 8 1
+you should pay 63927334 Toman.
+PENDING
+4412934113 0 0 0 88 92 8 0
+not enough seat.
+not enough seat.
+not enough seat.
+DONE
+please sit at table number 22.
+you should pay 35669917 Toman.
+4448604030 0 0 0 89 93 7 0
+4448604030 0 0 0 89 93 7 0
+please sit at table number 21.
+not enough seat.
+you should pay 38733494 Toman.
+please sit at table number 5.
+please sit at table number 6.
+FREE
+you should pay 66998677 Toman.
+you should pay 49346670 Toman.
+please sit at table number 24.
+4603682871 43830601 0 1 92 90 9 1
+FREE
+4603682871 43830601 0 1 92 91 8 1
+4603682871 43830601 0 1 92 91 8 1
+DONE
+please sit at table number 4.
+you should pay 43830601 Toman.
+you should pay 51037992 Toman.
+4698551464 0 0 0 94 90 10 0
+4698551464 0 0 0 94 90 10 0
+4698551464 0 0 0 94 90 10 0
+not enough seat.
+DONE
+FREE
+4698551464 0 0 0 94 90 10 0
+4698551464 0 0 0 94 90 10 0
+FREE
+4698551464 0 0 0 94 90 10 0
+please sit at table number 8.
+4698551464 40806610 0 1 94 89 10 1
+you should pay 40806610 Toman.
+4739358074 0 0 0 95 89 11 0
+4739358074 0 0 0 95 89 11 0
+4739358074 0 0 0 95 89 11 0
+DONE
+please sit at table number 7.
+please sit at table number 35.
+you should pay 58230342 Toman.
+please sit at table number 1.
+DONE
+you should pay 52459158 Toman.
+4850047574 54173911 0 1 97 87 12 1
+FREE
+you should pay 54173911 Toman.
+FREE
+please sit at table number 41.
+you should pay 66077064 Toman.
+not enough seat.
+4970298549 0 0 0 99 87 13 0
+4970298549 0 0 0 99 87 13 0
+4970298549 0 0 0 99 87 13 0
+4970298549 0 0 0 99 88 12 0
+FREE
+FREE
+DONE
+4970298549 0 0 0 99 88 12 0
+4970298549 0 0 0 99 88 12 0
+not enough seat.
+DONE
+4970298549 0 0 0 99 88 12 0
+4970298549 0 0 0 99 89 11 0
+4970298549 0 0 0 99 89 11 0
+please sit at table number 3.
+you should pay 40512821 Toman.
+5010811370 0 0 0 100 88 12 0
+5010811370 0 0 0 100 88 12 0
+5010811370 0 0 0 100 88 12 0
+DONE
+please sit at table number 14.
+you should pay 35330326 Toman.
+please sit at table number 11.
+not enough seat.
+5046141696 53623058 0 1 101 87 12 1
+you should pay 53623058 Toman.
+5099764754 0 0 0 102 88 12 0
+5099764754 0 0 0 102 88 12 0
+5099764754 0 0 0 102 88 12 0
+FREE
+5099764754 0 0 0 102 90 10 0
+5099764754 0 0 0 102 90 10 0
+FREE
+please sit at table number 2.
+you should pay 48361158 Toman.
+5148125912 0 0 0 103 89 11 0
+5148125912 0 0 0 103 89 11 0
+please sit at table number 5.
+you should pay 56361643 Toman.
+5204487555 0 0 0 104 90 10 0
+5204487555 0 0 0 104 90 10 0
+DONE
+5204487555 0 0 0 104 90 10 0
+5204487555 0 0 0 104 90 10 0
+please sit at table number 4.
+not enough seat.
+you should pay 35889966 Toman.
+5240377521 0 0 0 105 89 11 0
+5240377521 0 0 0 105 89 11 0
+FREE
+FREE
+5240377521 0 0 0 105 89 11 0
+please sit at table number 21.
+you should pay 38222702 Toman.
+5278600223 0 0 0 106 89 11 0
+5278600223 0 0 0 106 89 11 0
+5278600223 0 0 0 106 89 11 0
+5278600223 0 0 0 106 89 11 0
+DONE
+5278600223 0 0 0 106 90 10 0
+5278600223 0 0 0 106 90 10 0
+please sit at table number 22.
+5278600223 71758277 0 1 106 90 9 1
+you should pay 71758277 Toman.
+please sit at table number 19.
+you should pay 28577356 Toman.
+5378935856 0 0 0 108 90 10 0
+please sit at table number 1.
+you should pay 49704769 Toman.
+5428640625 0 0 0 109 90 10 0
+not enough seat.
+5428640625 0 0 0 109 90 10 0
+5428640625 0 0 0 109 90 10 0
+FREE
+FREE
+not enough seat.
+5428640625 0 0 0 109 90 10 0
+5428640625 0 0 0 109 90 10 0
+FREE
+5428640625 0 0 0 109 90 10 0
+please sit at table number 7.
+please sit at table number 24.
+FREE
+you should pay 44902055 Toman.
+please sit at table number 6.
+you should pay 41325761 Toman.
+you should pay 57222888 Toman.
+please sit at table number 3.
+FREE
+you should pay 42714543 Toman.
+DONE
+5614805872 0 0 0 113 88 12 0
+please sit at table number 8.
+you should pay 44041817 Toman.
+DONE
+5658847689 0 0 0 114 88 12 0
+5658847689 0 0 0 114 88 12 0
+DONE
+5658847689 0 0 0 114 88 12 0
+5658847689 0 0 0 114 88 12 0
+please sit at table number 14.
+you should pay 60502073 Toman.
+5719349762 0 0 0 115 87 13 0
+5719349762 0 0 0 115 87 13 0
+5719349762 0 0 0 115 88 12 0
+5719349762 0 0 0 115 88 12 0
+5719349762 0 0 0 115 88 12 0
+5719349762 0 0 0 115 88 12 0
+5719349762 0 0 0 115 89 11 0
+5719349762 0 0 0 115 89 11 0
+5719349762 0 0 0 115 89 11 0
+5719349762 0 0 0 115 89 11 0
+5719349762 0 0 0 115 89 11 0
+5719349762 0 0 0 115 89 11 0
+FREE
+5719349762 0 0 0 115 89 11 0
+please sit at table number 2.
+5719349762 55244032 0 1 115 89 10 1
+not enough seat.
+FREE
+please sit at table number 4.
+you should pay 55244032 Toman.
+not enough seat.
+you should pay 53375436 Toman.
+5827969230 0 0 0 117 89 11 0
+please sit at table number 21.
+you should pay 54607951 Toman.
+please sit at table number 5.
+please sit at table number 28.
+FREE
+5882577181 102810714 0 2 118 86 12 2
+you should pay 66596520 Toman.
+please sit at table number 9.
+you should pay 36214194 Toman.
+you should pay 56785869 Toman.
+6042173764 0 0 0 121 87 13 0
+please sit at table number 22.
+DONE
+FREE
+you should pay 54459171 Toman.
+6096632935 0 0 0 122 87 13 0
+6096632935 0 0 0 122 87 13 0
+6096632935 0 0 0 122 87 13 0
+please sit at table number 35.
+DONE
+6096632935 50114933 0 1 122 86 13 1
+you should pay 50114933 Toman.
+FREE
+6146747868 0 0 0 123 86 14 0
+6146747868 0 0 0 123 86 14 0
+DONE
+6146747868 0 0 0 123 86 14 0
+please sit at table number 41.
+DONE
+please sit at table number 19.
+you should pay 29532860 Toman.
+6176280728 57582248 0 1 124 87 12 1
+FREE
+6176280728 57582248 0 1 124 87 12 1
+not enough seat.
+FREE
+you should pay 57582248 Toman.
+DONE
+please sit at table number 3.
+please sit at table number 1.
+DONE
+DONE
+FREE
+please sit at table number 8.
+6233862976 138839124 0 3 125 86 11 3
+please sit at table number 11.
+please sit at table number 14.
+not enough seat.
+please sit at table number 6.
+please sit at table number 24.
+6233862976 355460744 0 7 125 83 10 7
+6233862976 355460744 0 7 125 83 10 7
+you should pay 66735460 Toman.
+PENDING
+you should pay 49814006 Toman.
+6350412442 238911278 0 5 127 83 12 5
+DONE
+DONE
+please sit at table number 45.
+not enough seat.
+6350412442 280164728 0 6 127 82 12 6
+you should pay 41253450 Toman.
+please sit at table number 7.
+please sit at table number 10.
+please sit at table number 47.
+you should pay 49528267 Toman.
+you should pay 45717513 Toman.
+FREE
+you should pay 59006101 Toman.
+you should pay 41066053 Toman.
+you should pay 46429578 Toman.
+please sit at table number 2.
+FREE
+DONE
+6633413404 157992532 0 4 133 81 15 4
+you should pay 49495143 Toman.
+not enough seat.
+please sit at table number 21.
+you should pay 44316978 Toman.
+please sit at table number 4.
+6727225525 156938406 0 4 135 82 14 4
+you should pay 25838286 Toman.
+you should pay 48441017 Toman.
+FREE
+DONE
+please sit at table number 5.
+you should pay 42914403 Toman.
+you should pay 45856672 Toman.
+6890275903 39744700 0 1 139 82 17 1
+you should pay 39744700 Toman.
+6930020603 0 0 0 140 82 18 0
+please sit at table number 22.
+you should pay 51658276 Toman.
+6981678879 0 0 0 141 82 18 0
+not enough seat.
+FREE
+6981678879 0 0 0 141 82 18 0
+please sit at table number 35.
+6981678879 58584968 0 1 141 81 18 1
+FREE
+you should pay 58584968 Toman.
+7040263847 0 0 0 142 82 18 0
+7040263847 0 0 0 142 82 18 0
+please sit at table number 19.
+please sit at table number 53.
+you should pay 57576244 Toman.
+PENDING
+you should pay 39304926 Toman.
+DONE
+please sit at table number 41.
+you should pay 50095384 Toman.
+DONE
+please sit at table number 27.
+not enough seat.
+you should pay 48202046 Toman.
+DONE
+not enough seat.
+please sit at table number 68.
+not enough seat.
+FREE
+FREE
+please sit at table number 28.
+FREE
+please sit at table number 24.
+you should pay 41403888 Toman.
+you should pay 71504856 Toman.
+FREE
+FREE
+not enough seat.
+DONE
+FREE
+7348351191 62212022 0 1 148 79 20 1
+DONE
+7348351191 62212022 0 1 148 79 20 1
+you should pay 62212022 Toman.
+7410563213 0 0 0 149 80 20 0
+FREE
+7410563213 0 0 0 149 81 19 0
+7410563213 0 0 0 149 82 18 0
+please sit at table number 6.
+you should pay 57795439 Toman.
+FREE
+7468358652 0 0 0 150 83 17 0
+7468358652 0 0 0 150 83 17 0
+7468358652 0 0 0 150 83 17 0
+FREE
+7468358652 0 0 0 150 84 16 0
+7468358652 0 0 0 150 84 16 0
+please sit at table number 8.
+you should pay 43645076 Toman.
+7512003728 0 0 0 151 84 16 0
+FREE
+not enough seat.
+please sit at table number 1.
+DONE
+you should pay 50166833 Toman.
+7562170561 0 0 0 152 86 14 0
+please sit at table number 14.
+you should pay 52956760 Toman.
+7615127321 0 0 0 153 87 13 0
+7615127321 0 0 0 153 87 13 0
+DONE
+not enough seat.
+not enough seat.
+7615127321 0 0 0 153 88 12 0
+not enough seat.
+7615127321 0 0 0 153 88 12 0
+FREE
+DONE
+please sit at table number 3.
+you should pay 62364799 Toman.
+7677492120 0 0 0 154 88 12 0
+DONE
+DONE
+FREE
+7677492120 0 0 0 154 89 11 0
+7677492120 0 0 0 154 89 11 0
+7677492120 0 0 0 154 90 10 0
+please sit at table number 2.
+you should pay 69663690 Toman.
+DONE
+7747155810 0 0 0 155 90 10 0
+7747155810 0 0 0 155 90 10 0
+7747155810 0 0 0 155 90 10 0
+7747155810 0 0 0 155 91 9 0
+7747155810 0 0 0 155 91 9 0
+FREE
+please sit at table number 4.
+you should pay 62362559 Toman.
+7809518369 0 0 0 156 90 10 0
+7809518369 0 0 0 156 90 10 0
+please sit at table number 19.
+7809518369 51272209 0 1 156 89 10 1
+you should pay 51272209 Toman.
+please sit at table number 5.
+you should pay 56105194 Toman.
+please sit at table number 21.
+you should pay 56479851 Toman.
+7973375623 0 0 0 159 89 11 0
+not enough seat.
+FREE
+please sit at table number 7.
+you should pay 38085953 Toman.
+8011461576 0 0 0 160 88 12 0
+FREE
+please sit at table number 9.
+not enough seat.
+not enough seat.
+please sit at table number 10.
+8011461576 95396022 0 2 160 87 11 2
+please sit at table number 11.
+please sit at table number 20.
+you should pay 50184295 Toman.
+8061645871 177823939 0 3 161 86 11 3
+you should pay 64748416 Toman.
+you should pay 67863796 Toman.
+you should pay 45211727 Toman.
+8239469810 0 0 0 164 86 14 0
+8239469810 0 0 0 164 86 14 0
+8239469810 0 0 0 164 87 13 0
+DONE
+please sit at table number 8.
+DONE
+DONE
+you should pay 29650608 Toman.
+not enough seat.
+8269120418 0 0 0 165 87 13 0
+please sit at table number 1.
+please sit at table number 14.
+DONE
+FREE
+not enough seat.
+8269120418 76735380 0 2 165 86 12 2
+you should pay 28561941 Toman.
+DONE
+you should pay 48173439 Toman.
+DONE
+not enough seat.
+FREE
+8345855798 0 0 0 167 86 14 0
+8345855798 0 0 0 167 87 13 0
+8345855798 0 0 0 167 87 13 0
+please sit at table number 3.
+you should pay 60849038 Toman.
+8406704836 0 0 0 168 86 14 0
+please sit at table number 17.
+please sit at table number 22.
+DONE
+you should pay 43000784 Toman.
+DONE
+you should pay 45237894 Toman.
+8494943514 0 0 0 170 85 15 0
+8494943514 0 0 0 170 85 15 0
+DONE
+FREE
+FREE
+please sit at table number 23.
+8494943514 70623651 0 1 170 84 15 1
+you should pay 70623651 Toman.
+DONE
+please sit at table number 2.
+8565567165 59293739 0 1 171 84 15 1
+DONE
+you should pay 59293739 Toman.
+DONE
+not enough seat.
+PENDING
+8624860904 0 0 0 172 87 13 0
+8624860904 0 0 0 172 87 13 0
+please sit at table number 21.
+please sit at table number 4.
+you should pay 52255189 Toman.
+please sit at table number 19.
+you should pay 54301480 Toman.
+8731417573 51582512 0 1 174 85 14 1
+you should pay 51582512 Toman.
+FREE
+8783000085 0 0 0 175 85 15 0
+FREE
+please sit at table number 5.
+FREE
+you should pay 57884065 Toman.
+FREE
+not enough seat.
+FREE
+8840884150 0 0 0 176 87 13 0
+FREE
+please sit at table number 11.
+8840884150 74598979 0 1 176 87 12 1
+you should pay 74598979 Toman.
+DONE
+FREE
+please sit at table number 24.
+please sit at table number 35.
+8915483129 132369212 0 2 177 86 12 2
+8915483129 132369212 0 2 177 86 12 2
+FREE
+please sit at table number 7.
+FREE
+please sit at table number 41.
+FREE
+FREE
+you should pay 58847634 Toman.
+please sit at table number 45.
+DONE
+please sit at table number 1.
+8974330763 287667688 0 5 178 84 11 5
+you should pay 60731929 Toman.
+please sit at table number 8.
+9035062692 279560934 0 5 179 83 12 5
+you should pay 55124738 Toman.
+please sit at table number 6.
+BUSY
+DONE
+please sit at table number 3.
+not enough seat.
+you should pay 52625175 Toman.
+9142812605 285897953 0 5 181 82 13 5
+you should pay 57532792 Toman.
+9200345397 228365161 0 4 182 83 13 4
+not enough seat.
+not enough seat.
+FREE
+you should pay 39441809 Toman.
+9239787206 188923352 0 3 183 84 13 3
+not enough seat.
+not enough seat.
+please sit at table number 9.
+9239787206 235849834 0 4 183 84 12 4
+9239787206 235849834 0 4 183 84 12 4
+9239787206 235849834 0 4 183 84 12 4
+FREE
+DONE
+please sit at table number 2.
+DONE
+you should pay 46926482 Toman.
+you should pay 44157581 Toman.
+FREE
+you should pay 69694726 Toman.
+you should pay 62674486 Toman.
+PENDING
+you should pay 56554140 Toman.
+please sit at table number 4.
+you should pay 63017082 Toman.
+9582811703 0 0 0 189 85 15 0
+PENDING
+DONE
+FREE
+9582811703 0 0 0 189 86 14 0
+9582811703 0 0 0 189 86 14 0
+FREE
+9582811703 0 0 0 189 87 13 0

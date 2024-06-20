@@ -14,7 +14,7 @@ struct src {
 	int l ; 
 }t;
 //int table[200][4] ;
-array<array <int , 4> , 200 > table ;// I don't know why but I reduce two RUNTIME ERROR AS WELL  
+array<array <int , 5> , 200 > table ;// I don't know why but I reduce two RUNTIME ERROR AS WELL  
 int last = 101 ;
 int n , m , k ; 
 // n is the number of evidence 
@@ -37,7 +37,15 @@ int bufn ;
 int money  = 0; 
 int finalmoney = 0 ; 
 int payment_num = 1 ;
-
+int debugmode = 0; 
+void foring(){
+	for(int i = 0 ; i < k ; i++ ){		
+		cout << table[i][0] <<  " "  ; 
+		cout << table[i][1] << " "  ;
+		cout << table[i][2]  << " "  ;
+		cout << table[i][3] << endl ; 
+	}
+}
 class Restaurant{
 	private:
 	public :
@@ -148,14 +156,11 @@ class Restaurant{
 				/*  
 				 *
 				 * MONITOR THE TABLES 
-				 *
-				 for(int i = 0 ; i < 5 ; i++ ){		
-				 cout << table[i][0] <<  " "  ; 
-				 cout << table[i][1] << " "  ;
-				 cout << table[i][2]  << " "  ;
-				 cout << table[i][3] << endl ; 
-				 }
-			 	*/	 
+				 */
+				if(debugmode){
+					foring(); 
+				}
+
 
 
 				switch(hash_score){
@@ -202,6 +207,7 @@ class Restaurant{
 				cout << "You are trying to convert " << t->strings[l-2]<< "into integer " << endl ;
 				// You can also log the error or take appropriate action here
 			}
+			int cap = bufn ;
 			int table_index = 101 ;
 			int moneybuf = 0 ;
 			int seen = 0 ; 
@@ -253,10 +259,10 @@ class Restaurant{
 				cout << "not enough seat." << "\n" ; 
 				// it mean there is no table with that amount 
 			}
-			
 
-				if(seen && (flag)){
-	for(int i = 0 ; i < (t->l-2) ; i++){
+
+			if(seen && (flag)){
+				for(int i = 0 ; i < (t->l-2) ; i++){
 					try{
 						int p = t->strings[i].find("X") ;
 						buf1 = t->strings[i].substr(p+1,t->strings[i].length()-p);
@@ -272,58 +278,59 @@ class Restaurant{
 					}
 
 				}
-					// this mean there is a table but it has been occupied 
-					money += moneybuf ; 
-					//cout << moneybuf ;
-					table[last][1] = moneybuf ; 
-					table[last][2] = payment_num ; 
-					payment_num++ ;
-					last++ ; 
-					cout << "please wait for free table." << "\n" ; 
-					wait++ ; 	
-					// there is a table but it has been occupied
-				}
-				if(!flag){
-	for(int i = 0 ; i < (t->l-2) ; i++){
-					try{
-						int p = t->strings[i].find("X") ;
-						buf1 = t->strings[i].substr(p+1,t->strings[i].length()-p);
-						bufn = stoi(buf1) ; 
-						buf2 = t->strings[i].substr(0,p) ;
-						moneybuf += foods[buf2]*bufn ;
-					}catch (const std::invalid_argument& e) {
-						// Handle the case when the string cannot be converted to an integer
-						cout << "Error: Invalid input string for conversion to integer." << endl;
-						cout << "You are trying to convert " << buf1 << "into integer " << endl ;
-						cout << "this error is in calculating the money in order function "<< endl ; 
-						// You can also log the error or take appropriate action here
-					}
-
-				}
-
-					money += moneybuf ; 
-					table[table_index][1] = moneybuf ; 
-					table[table_index][2] = payment_num ; 
-					//table[table_index][3] = t->second ; 
-					//table[table_index][4] = t->msecond ; 
-					/*
-					for(int i = 0 ; i < 5 ; i++ ){		
-						cout << table[i][0] <<  " "  ; 
-						cout << table[i][1] << " "  ;
-						cout << table[i][2]  << " "  ;
-						cout << table[i][3] << endl ; 
-					}
-					*/
-					payment_num++ ; 
-					cout << "please sit at table number " << (table_index+1) << "." << "\n"; 
-					FreeTable-- ; 
-					EatingTable++ ;
-
-					eating++; 
-					
-					// there is a free table
-				}
+				// this mean there is a table but it has been occupied 
+				money += moneybuf ; 
+				//cout << moneybuf ;
+				table[last][0] = cap ; 
+				table[last][1] = moneybuf ; 
+				table[last][2] = payment_num ; 
+				payment_num++ ;
+				last++ ; 
+				cout << "please wait for free table." << "\n" ; 
+				wait++ ; 	
+				// there is a table but it has been occupied
 			}
+			if(!flag){
+				for(int i = 0 ; i < (t->l-2) ; i++){
+					try{
+						int p = t->strings[i].find("X") ;
+						buf1 = t->strings[i].substr(p+1,t->strings[i].length()-p);
+						bufn = stoi(buf1) ; 
+						buf2 = t->strings[i].substr(0,p) ;
+						moneybuf += foods[buf2]*bufn ;
+					}catch (const std::invalid_argument& e) {
+						// Handle the case when the string cannot be converted to an integer
+						cout << "Error: Invalid input string for conversion to integer." << endl;
+						cout << "You are trying to convert " << buf1 << "into integer " << endl ;
+						cout << "this error is in calculating the money in order function "<< endl ; 
+						// You can also log the error or take appropriate action here
+					}
+
+				}
+
+				money += moneybuf ; 
+				table[table_index][1] = moneybuf ; 
+				table[table_index][2] = payment_num ; 
+				//table[table_index][3] = t->second ; 
+				//table[table_index][4] = t->msecond ; 
+				/*
+				   for(int i = 0 ; i < 5 ; i++ ){		
+				   cout << table[i][0] <<  " "  ; 
+				   cout << table[i][1] << " "  ;
+				   cout << table[i][2]  << " "  ;
+				   cout << table[i][3] << endl ; 
+				   }
+				   */
+				payment_num++ ; 
+				cout << "please sit at table number " << (table_index+1) << "." << "\n"; 
+				FreeTable-- ; 
+				EatingTable++ ;
+
+				eating++; 
+
+				// there is a free table
+			}
+		}
 
 		void payment(struct src *t){
 			//cout << table[i][0] <<" " << bufn <<" "<<table_num << " "<< table[i][2] << "//" ;
@@ -346,30 +353,37 @@ class Restaurant{
 			if(n > 100 ){
 				cout << "pays after eating." << "\n" ; 	
 			}else{
-				bufn = table[n][1] ; 
-				cout << "you should pay " << bufn << " Toman." << endl ; 
-				finalmoney += bufn ;
+				if(( table[n][3] && (( t->second- table[n][3] )>= 0 ) && (table[n][4]-(t->msecond) >= 0 ))|| !(table[n][3])){
+					bufn = table[n][1] ; 
+					cout << "you should pay " << bufn << " Toman." << endl ; 
+					finalmoney += bufn ;
+					table[n][3] = t->second + 2 ; 
+					table[n][4] = t->msecond ;
+					table[n][2] = 0 ;
+					table[n][1] = 0 ;
 
-				table[n][3] = t->second + 2 ; 
-				table[n][4] = t->msecond ;
-				table[n][2] = 0 ;
-				table[n][1] = 0 ;
-				eating--; 
-				ended++ ;
-				EatingTable-- ; 
-				ServiceTable++ ;
-				int flag2 = 1 ; 
-				for(int i = 101 ; i <= 200 ; i++){
-					if((table[i][2] != 0) &&  (table[i][0] <= table[n][0])){
-						// money_total must be updated
-						table[n][1] = table[i][1] ; 
-						table[n][2] = table[i][2]; 
-						table[i][1] = 0 ; 
-						table[i][2] = 0 ;
-						wait-- ;
-						flag2 = 0 ; 
-						break ; 
+					eating--; 
+					ended++ ;
+					EatingTable-- ; 
+					ServiceTable++ ;
+					int flag2 = 1 ; 
+
+
+					for(int i = 101 ; i <= 200 ; i++){
+						if((table[i][2] != 0) &&  (table[i][0] <= table[n][0])){
+							// money_total must be updated
+							table[n][1] = table[i][1] ; 
+							table[n][2] = table[i][2]; 
+							table[i][1] = 0 ; 
+							table[i][2] = 0 ;
+							table[i][0] = 0 ; 
+							wait-- ;
+							flag2 = 0 ; 
+							break ; 
+						}
 					}
+				}else{
+					cout << "pays after eating." << endl ; 
 				}
 			}
 		}
@@ -447,6 +461,7 @@ class Restaurant{
 				<< " " << FreeTable << " " <<ServiceTable << " " << EatingTable << endl ; 
 		}
 };
+
 
 int main(){
 

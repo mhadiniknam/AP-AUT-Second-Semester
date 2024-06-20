@@ -1,0 +1,39 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+    static Scanner scan = new Scanner(System.in);
+    public static void main(String[] args) {
+        int n = scan.nextInt();
+        for (int i = 0; i < n; i++) {
+            System.out.println(check());
+        }
+    }
+    static String check(){
+        int m = scan.nextInt();
+        int temp;
+        boolean tekrar = false;
+        String out = "null";
+        ArrayList<Integer> S1 = new ArrayList<>();
+        ArrayList<Integer> S2 = new ArrayList<>();
+        for (int i = 0; i < m; i++) {
+            temp = scan.nextInt();
+            if(S1.contains(temp))
+                tekrar = true;
+            S1.add(temp);
+        }
+        for (int i = 0; i < m; i++) {
+            temp = scan.nextInt();
+            S2.add(temp);
+            if(!S1.contains(temp))
+                out = "NO";
+        }
+        if(out.equals("null")){
+            if(!S1.contains(S2))
+                out="YES";
+            if(tekrar)
+                out="YES";
+        }
+        return out;
+    }
+}

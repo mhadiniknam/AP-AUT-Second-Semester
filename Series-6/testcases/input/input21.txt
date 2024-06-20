@@ -1,0 +1,1012 @@
+1000 10 100
+pizza 352948
+salad 12936
+sandwich 396829
+bread 463996
+steak 967414
+fish 502125
+shrimp 578425
+rice 97381
+dks 565326
+zddsssad 802597
+5 6 14 13 6 2 5 10 5 6 8 2 1 15 2 2 3 3 11 8 15 15 8 13 1 7 9 10 5 3 8 8 4 7 15 9 3 1 5 10 15 9 6 5 15 10 15 1 3 12 7 12 15 13 2 9 8 12 6 12 9 11 11 6 14 7 6 15 1 3 2 11 10 14 7 15 1 10 2 13 6 7 12 3 4 8 11 14 14 14 5 10 10 13 7 10 6 13 8 15 
+order pizzaX9 saladX10 sandwichX5 breadX20 steakX2 fishX12 shrimpX4 riceX19 dksX14 zddsssadX3 7 12:00:01
+payment 1 12:00:02
+general-status 12:00:03
+order pizzaX6 saladX1 sandwichX17 breadX15 steakX2 fishX15 shrimpX12 riceX6 dksX6 zddsssadX12 16 12:00:04
+general-status 12:00:05
+general-status 12:00:06
+order-status 1 12:00:07
+table-status 43 12:00:08
+order pizzaX10 saladX19 sandwichX2 breadX12 steakX13 fishX13 shrimpX16 riceX10 dksX15 zddsssadX15 17 12:00:09
+general-status 12:00:10
+order pizzaX19 saladX9 sandwichX5 breadX11 steakX14 fishX19 shrimpX13 riceX9 dksX17 zddsssadX18 3 12:00:11
+order-status 2 12:00:12
+order-status 1 12:00:13
+payment 2 12:00:14
+order pizzaX17 saladX18 sandwichX19 breadX13 steakX9 fishX15 shrimpX2 riceX19 dksX12 zddsssadX17 7 12:00:15
+payment 3 12:00:16
+order-status 1 12:00:17
+order pizzaX18 saladX19 sandwichX17 breadX14 steakX14 fishX15 shrimpX4 riceX16 dksX2 zddsssadX10 7 12:00:18
+order pizzaX6 saladX17 sandwichX7 breadX17 steakX20 fishX17 shrimpX6 riceX10 dksX12 zddsssadX13 3 12:00:19
+order pizzaX10 saladX17 sandwichX14 breadX9 steakX9 fishX7 shrimpX15 riceX18 dksX11 zddsssadX13 10 12:00:20
+order-status 1 12:00:21
+payment 4 12:00:22
+payment 5 12:00:23
+payment 6 12:00:24
+general-status 12:00:25
+general-status 12:00:26
+table-status 33 12:00:27
+order-status 2 12:00:28
+order-status 2 12:00:29
+order-status 3 12:00:30
+order-status 3 12:00:31
+general-status 12:00:32
+table-status 65 12:00:33
+general-status 12:00:34
+order-status 5 12:01:00
+order pizzaX15 saladX16 sandwichX9 breadX13 steakX7 fishX18 shrimpX10 riceX3 dksX15 zddsssadX10 13 12:01:01
+table-status 91 12:01:02
+order pizzaX9 saladX20 sandwichX14 breadX6 steakX12 fishX8 shrimpX5 riceX16 dksX20 zddsssadX13 14 12:01:03
+payment 7 12:01:04
+table-status 79 12:01:05
+payment 8 12:01:06
+general-status 12:01:07
+general-status 12:01:08
+order pizzaX11 saladX9 sandwichX9 breadX1 steakX1 fishX9 shrimpX10 riceX7 dksX6 zddsssadX12 17 12:01:09
+order-status 6 12:01:10
+table-status 42 12:01:11
+order pizzaX5 saladX20 sandwichX14 breadX7 steakX13 fishX3 shrimpX13 riceX6 dksX2 zddsssadX3 16 12:01:12
+order pizzaX14 saladX14 sandwichX15 breadX4 steakX4 fishX18 shrimpX17 riceX15 dksX18 zddsssadX20 18 12:01:13
+general-status 12:01:14
+order-status 7 12:01:15
+table-status 83 12:01:16
+table-status 10 12:01:17
+general-status 12:01:18
+general-status 12:01:19
+order-status 6 12:01:20
+order-status 4 12:01:21
+general-status 12:01:22
+order-status 3 12:01:23
+general-status 12:01:24
+general-status 12:01:25
+order pizzaX15 saladX2 sandwichX14 breadX1 steakX17 fishX7 shrimpX5 riceX14 dksX3 zddsssadX17 20 12:01:26
+general-status 12:01:27
+general-status 12:01:28
+order-status 1 12:01:29
+general-status 12:01:30
+table-status 51 12:01:31
+order pizzaX7 saladX19 sandwichX13 breadX4 steakX1 fishX12 shrimpX3 riceX18 dksX9 zddsssadX14 20 12:01:32
+order pizzaX20 saladX17 sandwichX13 breadX3 steakX20 fishX14 shrimpX20 riceX19 dksX1 zddsssadX2 2 12:01:33
+payment 9 12:01:34
+order pizzaX16 saladX9 sandwichX19 breadX11 steakX1 fishX9 shrimpX17 riceX5 dksX15 zddsssadX9 12 12:02:00
+general-status 12:02:01
+payment 10 12:02:02
+order pizzaX7 saladX1 sandwichX8 breadX9 steakX17 fishX9 shrimpX16 riceX16 dksX16 zddsssadX2 5 12:02:03
+payment 11 12:02:04
+general-status 12:02:05
+order pizzaX1 saladX9 sandwichX2 breadX12 steakX12 fishX19 shrimpX16 riceX12 dksX13 zddsssadX6 8 12:02:06
+payment 12 12:02:07
+table-status 18 12:02:08
+order pizzaX16 saladX9 sandwichX9 breadX8 steakX3 fishX19 shrimpX16 riceX8 dksX5 zddsssadX12 2 12:02:09
+order-status 3 12:02:10
+general-status 12:02:11
+general-status 12:02:12
+table-status 5 12:02:13
+order pizzaX5 saladX1 sandwichX18 breadX20 steakX19 fishX4 shrimpX11 riceX9 dksX18 zddsssadX1 10 12:02:14
+order pizzaX11 saladX10 sandwichX4 breadX16 steakX2 fishX20 shrimpX15 riceX17 dksX16 zddsssadX4 2 12:02:15
+payment 15 12:02:16
+order pizzaX3 saladX9 sandwichX13 breadX12 steakX7 fishX13 shrimpX1 riceX10 dksX6 zddsssadX19 4 12:02:17
+payment 16 12:02:18
+payment 13 12:02:19
+order pizzaX18 saladX11 sandwichX18 breadX9 steakX17 fishX4 shrimpX3 riceX9 dksX3 zddsssadX5 13 12:02:20
+payment 14 12:02:21
+order pizzaX4 saladX17 sandwichX11 breadX3 steakX2 fishX7 shrimpX7 riceX16 dksX11 zddsssadX15 4 12:02:22
+order pizzaX20 saladX3 sandwichX9 breadX12 steakX20 fishX20 shrimpX4 riceX13 dksX11 zddsssadX7 6 12:02:23
+general-status 12:02:24
+payment 19 12:02:25
+order-status 14 12:02:26
+payment 17 12:02:27
+general-status 12:02:28
+table-status 34 12:02:29
+order-status 12 12:02:30
+payment 18 12:02:31
+general-status 12:02:32
+general-status 12:02:33
+general-status 12:02:34
+general-status 12:03:00
+order pizzaX17 saladX18 sandwichX9 breadX15 steakX4 fishX17 shrimpX14 riceX5 dksX8 zddsssadX7 17 12:03:01
+order pizzaX8 saladX1 sandwichX10 breadX4 steakX16 fishX2 shrimpX15 riceX17 dksX19 zddsssadX6 15 12:03:02
+payment 20 12:03:03
+general-status 12:03:04
+table-status 25 12:03:05
+general-status 12:03:06
+table-status 72 12:03:07
+table-status 52 12:03:08
+order-status 8 12:03:09
+general-status 12:03:10
+order pizzaX12 saladX3 sandwichX12 breadX15 steakX15 fishX11 shrimpX14 riceX16 dksX9 zddsssadX5 20 12:03:11
+order pizzaX2 saladX20 sandwichX5 breadX9 steakX10 fishX17 shrimpX3 riceX5 dksX13 zddsssadX11 2 12:03:12
+payment 21 12:03:13
+general-status 12:03:14
+general-status 12:03:15
+general-status 12:03:16
+general-status 12:03:17
+order pizzaX19 saladX1 sandwichX20 breadX16 steakX12 fishX19 shrimpX17 riceX11 dksX2 zddsssadX17 9 12:03:18
+payment 22 12:03:19
+general-status 12:03:20
+general-status 12:03:21
+general-status 12:03:22
+general-status 12:03:23
+general-status 12:03:24
+general-status 12:03:25
+order-status 1 12:03:26
+table-status 81 12:03:27
+general-status 12:03:28
+general-status 12:03:29
+general-status 12:03:30
+order pizzaX11 saladX20 sandwichX12 breadX9 steakX13 fishX14 shrimpX15 riceX4 dksX5 zddsssadX10 16 12:03:31
+table-status 75 12:03:32
+general-status 12:03:33
+general-status 12:03:34
+general-status 12:04:00
+order pizzaX10 saladX19 sandwichX3 breadX6 steakX5 fishX9 shrimpX1 riceX6 dksX11 zddsssadX9 5 12:04:01
+table-status 87 12:04:02
+payment 23 12:04:03
+general-status 12:04:04
+table-status 41 12:04:05
+general-status 12:04:06
+order-status 3 12:04:07
+order pizzaX6 saladX16 sandwichX11 breadX4 steakX15 fishX19 shrimpX5 riceX16 dksX20 zddsssadX2 10 12:04:08
+order pizzaX17 saladX12 sandwichX12 breadX10 steakX4 fishX15 shrimpX6 riceX7 dksX16 zddsssadX7 6 12:04:09
+payment 24 12:04:10
+payment 25 12:04:11
+general-status 12:04:12
+table-status 47 12:04:13
+order-status 24 12:04:14
+general-status 12:04:15
+order-status 18 12:04:16
+order pizzaX9 saladX16 sandwichX3 breadX18 steakX6 fishX3 shrimpX6 riceX20 dksX3 zddsssadX14 20 12:04:17
+general-status 12:04:18
+general-status 12:04:19
+table-status 43 12:04:20
+general-status 12:04:21
+general-status 12:04:22
+order-status 4 12:04:23
+general-status 12:04:24
+general-status 12:04:25
+general-status 12:04:26
+order pizzaX15 saladX2 sandwichX13 breadX19 steakX15 fishX5 shrimpX5 riceX6 dksX19 zddsssadX19 6 12:04:27
+general-status 12:04:28
+payment 26 12:04:29
+general-status 12:04:30
+table-status 50 12:04:31
+general-status 12:04:32
+general-status 12:04:33
+general-status 12:04:34
+order-status 9 12:05:00
+general-status 12:05:01
+table-status 25 12:05:02
+table-status 48 12:05:03
+general-status 12:05:04
+order pizzaX16 saladX5 sandwichX15 breadX19 steakX10 fishX2 shrimpX6 riceX6 dksX5 zddsssadX3 3 12:05:05
+payment 27 12:05:06
+general-status 12:05:07
+general-status 12:05:08
+table-status 30 12:05:09
+general-status 12:05:10
+order pizzaX12 saladX1 sandwichX7 breadX20 steakX8 fishX18 shrimpX1 riceX3 dksX3 zddsssadX4 7 12:05:11
+payment 28 12:05:12
+order pizzaX5 saladX4 sandwichX16 breadX11 steakX6 fishX8 shrimpX16 riceX7 dksX1 zddsssadX4 20 12:05:13
+general-status 12:05:14
+general-status 12:05:15
+general-status 12:05:16
+order pizzaX11 saladX16 sandwichX4 breadX19 steakX7 fishX13 shrimpX13 riceX16 dksX13 zddsssadX19 1 12:05:17
+general-status 12:05:18
+payment 29 12:05:19
+general-status 12:05:20
+general-status 12:05:21
+general-status 12:05:22
+general-status 12:05:23
+order pizzaX8 saladX18 sandwichX5 breadX10 steakX7 fishX6 shrimpX6 riceX16 dksX15 zddsssadX4 5 12:05:24
+order-status 11 12:05:25
+order pizzaX7 saladX14 sandwichX9 breadX1 steakX16 fishX9 shrimpX10 riceX15 dksX16 zddsssadX15 16 12:05:26
+general-status 12:05:27
+order pizzaX20 saladX14 sandwichX2 breadX2 steakX14 fishX15 shrimpX19 riceX4 dksX4 zddsssadX3 11 12:05:28
+general-status 12:05:29
+payment 30 12:05:30
+payment 31 12:05:31
+general-status 12:05:32
+general-status 12:05:33
+order pizzaX4 saladX11 sandwichX20 breadX17 steakX19 fishX11 shrimpX3 riceX12 dksX15 zddsssadX20 15 12:05:34
+table-status 16 12:06:00
+order pizzaX5 saladX19 sandwichX10 breadX8 steakX3 fishX3 shrimpX7 riceX1 dksX10 zddsssadX4 3 12:06:01
+order pizzaX1 saladX16 sandwichX2 breadX11 steakX1 fishX2 shrimpX14 riceX9 dksX6 zddsssadX5 1 12:06:02
+order pizzaX11 saladX14 sandwichX12 breadX20 steakX17 fishX8 shrimpX14 riceX17 dksX3 zddsssadX20 9 12:06:03
+table-status 53 12:06:04
+order pizzaX19 saladX7 sandwichX14 breadX20 steakX12 fishX8 shrimpX15 riceX4 dksX11 zddsssadX3 10 12:06:05
+general-status 12:06:06
+payment 34 12:06:07
+order pizzaX1 saladX19 sandwichX10 breadX10 steakX4 fishX7 shrimpX2 riceX17 dksX5 zddsssadX20 17 12:06:08
+payment 36 12:06:09
+order pizzaX7 saladX14 sandwichX13 breadX6 steakX12 fishX5 shrimpX5 riceX13 dksX9 zddsssadX10 9 12:06:10
+order pizzaX3 saladX12 sandwichX18 breadX7 steakX17 fishX1 shrimpX14 riceX16 dksX10 zddsssadX8 5 12:06:11
+payment 33 12:06:12
+order-status 16 12:06:13
+order pizzaX9 saladX20 sandwichX7 breadX14 steakX17 fishX10 shrimpX4 riceX1 dksX10 zddsssadX11 14 12:06:14
+payment 39 12:06:15
+payment 38 12:06:16
+table-status 19 12:06:17
+table-status 87 12:06:18
+order pizzaX5 saladX10 sandwichX16 breadX3 steakX4 fishX5 shrimpX13 riceX9 dksX12 zddsssadX8 3 12:06:19
+payment 40 12:06:20
+order pizzaX11 saladX19 sandwichX20 breadX19 steakX20 fishX19 shrimpX15 riceX17 dksX19 zddsssadX11 9 12:06:21
+order pizzaX15 saladX4 sandwichX9 breadX3 steakX10 fishX6 shrimpX9 riceX12 dksX19 zddsssadX20 6 12:06:22
+order pizzaX5 saladX6 sandwichX15 breadX7 steakX6 fishX4 shrimpX2 riceX3 dksX18 zddsssadX17 10 12:06:23
+order pizzaX13 saladX13 sandwichX20 breadX20 steakX19 fishX18 shrimpX17 riceX16 dksX18 zddsssadX20 4 12:06:24
+order pizzaX1 saladX16 sandwichX17 breadX17 steakX12 fishX9 shrimpX13 riceX1 dksX17 zddsssadX8 17 12:06:25
+order pizzaX6 saladX14 sandwichX11 breadX16 steakX10 fishX19 shrimpX19 riceX12 dksX20 zddsssadX6 3 12:06:26
+payment 45 12:06:27
+general-status 12:06:28
+payment 44 12:06:29
+general-status 12:06:30
+payment 43 12:06:31
+payment 42 12:06:32
+payment 41 12:06:33
+payment 37 12:06:34
+payment 35 12:07:00
+order pizzaX4 saladX20 sandwichX5 breadX15 steakX9 fishX18 shrimpX11 riceX17 dksX14 zddsssadX1 7 12:07:01
+table-status 45 12:07:02
+order pizzaX13 saladX9 sandwichX2 breadX11 steakX11 fishX20 shrimpX12 riceX16 dksX4 zddsssadX20 20 12:07:03
+payment 32 12:07:04
+order-status 46 12:07:05
+general-status 12:07:06
+payment 46 12:07:07
+general-status 12:07:08
+order pizzaX10 saladX6 sandwichX10 breadX12 steakX8 fishX2 shrimpX18 riceX15 dksX1 zddsssadX12 14 12:07:09
+general-status 12:07:10
+general-status 12:07:11
+general-status 12:07:12
+order pizzaX13 saladX11 sandwichX18 breadX2 steakX15 fishX3 shrimpX7 riceX20 dksX17 zddsssadX17 19 12:07:13
+payment 47 12:07:14
+order pizzaX17 saladX1 sandwichX1 breadX13 steakX7 fishX5 shrimpX3 riceX19 dksX14 zddsssadX6 12 12:07:15
+order pizzaX15 saladX3 sandwichX3 breadX13 steakX1 fishX12 shrimpX7 riceX16 dksX13 zddsssadX13 17 12:07:16
+payment 48 12:07:17
+order pizzaX1 saladX4 sandwichX6 breadX13 steakX16 fishX20 shrimpX19 riceX10 dksX11 zddsssadX1 18 12:07:18
+table-status 53 12:07:19
+order pizzaX16 saladX2 sandwichX13 breadX6 steakX9 fishX12 shrimpX13 riceX19 dksX12 zddsssadX1 8 12:07:20
+general-status 12:07:21
+order pizzaX14 saladX4 sandwichX14 breadX16 steakX11 fishX2 shrimpX13 riceX6 dksX18 zddsssadX11 18 12:07:22
+order pizzaX19 saladX10 sandwichX7 breadX15 steakX15 fishX12 shrimpX13 riceX3 dksX3 zddsssadX3 17 12:07:23
+general-status 12:07:24
+general-status 12:07:25
+general-status 12:07:26
+order pizzaX9 saladX20 sandwichX7 breadX9 steakX2 fishX5 shrimpX7 riceX1 dksX18 zddsssadX16 9 12:07:27
+payment 49 12:07:28
+payment 50 12:07:29
+order pizzaX7 saladX17 sandwichX6 breadX3 steakX4 fishX20 shrimpX10 riceX6 dksX4 zddsssadX1 6 12:07:30
+general-status 12:07:31
+order pizzaX16 saladX14 sandwichX19 breadX8 steakX17 fishX5 shrimpX3 riceX8 dksX5 zddsssadX15 3 12:07:32
+table-status 87 12:07:33
+order pizzaX5 saladX3 sandwichX6 breadX7 steakX5 fishX16 shrimpX17 riceX6 dksX3 zddsssadX7 19 12:07:34
+payment 52 12:08:00
+payment 51 12:08:01
+order pizzaX19 saladX14 sandwichX12 breadX10 steakX18 fishX8 shrimpX20 riceX7 dksX16 zddsssadX15 15 12:08:02
+table-status 32 12:08:03
+general-status 12:08:04
+payment 53 12:08:05
+general-status 12:08:06
+order pizzaX14 saladX10 sandwichX14 breadX6 steakX4 fishX18 shrimpX15 riceX1 dksX6 zddsssadX19 3 12:08:07
+order pizzaX19 saladX4 sandwichX19 breadX17 steakX7 fishX14 shrimpX11 riceX10 dksX3 zddsssadX15 16 12:08:08
+payment 54 12:08:09
+order pizzaX3 saladX1 sandwichX3 breadX18 steakX9 fishX19 shrimpX11 riceX14 dksX1 zddsssadX13 20 12:08:10
+general-status 12:08:11
+order-status 52 12:08:12
+general-status 12:08:13
+order pizzaX1 saladX11 sandwichX11 breadX4 steakX8 fishX15 shrimpX17 riceX9 dksX4 zddsssadX11 14 12:08:14
+order pizzaX13 saladX4 sandwichX7 breadX11 steakX17 fishX16 shrimpX5 riceX13 dksX1 zddsssadX2 6 12:08:15
+general-status 12:08:16
+payment 56 12:08:17
+payment 55 12:08:18
+order-status 11 12:08:19
+general-status 12:08:20
+order-status 48 12:08:21
+general-status 12:08:22
+order pizzaX7 saladX3 sandwichX12 breadX20 steakX20 fishX2 shrimpX7 riceX7 dksX19 zddsssadX16 13 12:08:23
+payment 57 12:08:24
+general-status 12:08:25
+order pizzaX11 saladX8 sandwichX20 breadX15 steakX11 fishX5 shrimpX12 riceX20 dksX6 zddsssadX3 9 12:08:26
+order-status 37 12:08:27
+general-status 12:08:28
+general-status 12:08:29
+order pizzaX2 saladX20 sandwichX17 breadX5 steakX10 fishX1 shrimpX7 riceX2 dksX2 zddsssadX9 8 12:08:30
+payment 58 12:08:31
+order pizzaX5 saladX2 sandwichX20 breadX7 steakX17 fishX19 shrimpX20 riceX8 dksX5 zddsssadX2 13 12:08:32
+order pizzaX19 saladX5 sandwichX15 breadX5 steakX10 fishX10 shrimpX10 riceX19 dksX17 zddsssadX18 1 12:08:33
+payment 61 12:08:34
+order pizzaX18 saladX16 sandwichX20 breadX20 steakX2 fishX17 shrimpX18 riceX7 dksX8 zddsssadX9 5 12:09:00
+order-status 7 12:09:01
+general-status 12:09:02
+order-status 51 12:09:03
+payment 59 12:09:04
+payment 62 12:09:05
+order pizzaX5 saladX5 sandwichX2 breadX16 steakX7 fishX10 shrimpX11 riceX2 dksX12 zddsssadX2 3 12:09:06
+payment 60 12:09:07
+payment 63 12:09:08
+order pizzaX10 saladX12 sandwichX2 breadX6 steakX9 fishX5 shrimpX14 riceX8 dksX16 zddsssadX7 13 12:09:09
+payment 64 12:09:10
+general-status 12:09:11
+general-status 12:09:12
+general-status 12:09:13
+order pizzaX14 saladX1 sandwichX14 breadX1 steakX4 fishX8 shrimpX14 riceX10 dksX8 zddsssadX3 2 12:09:14
+payment 65 12:09:15
+order pizzaX7 saladX16 sandwichX1 breadX13 steakX12 fishX8 shrimpX16 riceX6 dksX3 zddsssadX5 4 12:09:16
+order-status 44 12:09:17
+order pizzaX8 saladX8 sandwichX8 breadX18 steakX6 fishX4 shrimpX11 riceX1 dksX12 zddsssadX9 12 12:09:18
+order pizzaX17 saladX15 sandwichX16 breadX19 steakX19 fishX11 shrimpX20 riceX12 dksX9 zddsssadX12 2 12:09:19
+table-status 10 12:09:20
+table-status 60 12:09:21
+order pizzaX10 saladX20 sandwichX16 breadX11 steakX20 fishX12 shrimpX8 riceX4 dksX9 zddsssadX12 15 12:09:22
+order pizzaX19 saladX6 sandwichX19 breadX6 steakX13 fishX20 shrimpX16 riceX5 dksX18 zddsssadX8 1 12:09:23
+payment 70 12:09:24
+order pizzaX3 saladX9 sandwichX15 breadX2 steakX15 fishX5 shrimpX19 riceX2 dksX3 zddsssadX19 20 12:09:25
+general-status 12:09:26
+payment 68 12:09:27
+payment 66 12:09:28
+payment 69 12:09:29
+payment 67 12:09:30
+order pizzaX10 saladX7 sandwichX2 breadX2 steakX2 fishX19 shrimpX5 riceX9 dksX15 zddsssadX16 4 12:09:31
+table-status 71 12:09:32
+payment 71 12:09:33
+general-status 12:09:34
+general-status 12:10:00
+general-status 12:10:01
+order pizzaX5 saladX13 sandwichX5 breadX9 steakX10 fishX18 shrimpX4 riceX16 dksX4 zddsssadX1 4 12:10:02
+order-status 55 12:10:03
+order pizzaX11 saladX10 sandwichX7 breadX10 steakX6 fishX8 shrimpX11 riceX20 dksX14 zddsssadX19 20 12:10:04
+payment 72 12:10:05
+order pizzaX8 saladX20 sandwichX16 breadX3 steakX19 fishX3 shrimpX8 riceX2 dksX14 zddsssadX1 16 12:10:06
+table-status 18 12:10:07
+general-status 12:10:08
+general-status 12:10:09
+general-status 12:10:10
+order pizzaX6 saladX20 sandwichX5 breadX19 steakX1 fishX1 shrimpX19 riceX1 dksX19 zddsssadX2 11 12:10:11
+table-status 22 12:10:12
+order pizzaX13 saladX9 sandwichX13 breadX14 steakX4 fishX14 shrimpX12 riceX15 dksX20 zddsssadX13 2 12:10:13
+payment 73 12:10:14
+order pizzaX17 saladX1 sandwichX19 breadX9 steakX5 fishX14 shrimpX2 riceX11 dksX2 zddsssadX17 13 12:10:15
+payment 74 12:10:16
+order pizzaX17 saladX3 sandwichX10 breadX16 steakX12 fishX14 shrimpX20 riceX12 dksX16 zddsssadX20 8 12:10:17
+payment 75 12:10:18
+table-status 39 12:10:19
+payment 76 12:10:20
+general-status 12:10:21
+general-status 12:10:22
+table-status 65 12:10:23
+general-status 12:10:24
+general-status 12:10:25
+general-status 12:10:26
+order pizzaX11 saladX15 sandwichX13 breadX19 steakX19 fishX7 shrimpX15 riceX4 dksX12 zddsssadX6 15 12:10:27
+payment 77 12:10:28
+general-status 12:10:29
+table-status 51 12:10:30
+general-status 12:10:31
+general-status 12:10:32
+table-status 65 12:10:33
+order pizzaX4 saladX7 sandwichX15 breadX1 steakX9 fishX1 shrimpX11 riceX12 dksX12 zddsssadX16 19 12:10:34
+general-status 12:11:00
+order pizzaX9 saladX9 sandwichX9 breadX14 steakX1 fishX9 shrimpX8 riceX10 dksX5 zddsssadX6 8 12:11:01
+order pizzaX10 saladX6 sandwichX5 breadX14 steakX9 fishX17 shrimpX3 riceX12 dksX3 zddsssadX1 17 12:11:02
+general-status 12:11:03
+payment 78 12:11:04
+general-status 12:11:05
+order pizzaX16 saladX5 sandwichX20 breadX4 steakX1 fishX8 shrimpX1 riceX12 dksX3 zddsssadX20 6 12:11:06
+order pizzaX14 saladX17 sandwichX10 breadX13 steakX13 fishX5 shrimpX8 riceX2 dksX4 zddsssadX12 5 12:11:07
+payment 79 12:11:08
+order pizzaX12 saladX3 sandwichX20 breadX3 steakX5 fishX12 shrimpX16 riceX3 dksX5 zddsssadX11 7 12:11:09
+order pizzaX3 saladX15 sandwichX15 breadX11 steakX13 fishX14 shrimpX12 riceX5 dksX10 zddsssadX17 17 12:11:10
+order-status 26 12:11:11
+order-status 61 12:11:12
+payment 80 12:11:13
+payment 81 12:11:14
+order pizzaX1 saladX11 sandwichX5 breadX6 steakX1 fishX12 shrimpX7 riceX17 dksX9 zddsssadX11 16 12:11:15
+order-status 46 12:11:16
+general-status 12:11:17
+order pizzaX11 saladX15 sandwichX16 breadX20 steakX17 fishX12 shrimpX12 riceX17 dksX20 zddsssadX6 14 12:11:18
+payment 82 12:11:19
+order-status 13 12:11:20
+order pizzaX10 saladX8 sandwichX10 breadX2 steakX12 fishX5 shrimpX15 riceX2 dksX2 zddsssadX12 10 12:11:21
+general-status 12:11:22
+table-status 24 12:11:23
+general-status 12:11:24
+payment 83 12:11:25
+general-status 12:11:26
+order-status 28 12:11:27
+general-status 12:11:28
+order pizzaX12 saladX18 sandwichX4 breadX15 steakX18 fishX9 shrimpX9 riceX7 dksX1 zddsssadX14 19 12:11:29
+order-status 70 12:11:30
+general-status 12:11:31
+order pizzaX6 saladX13 sandwichX3 breadX9 steakX19 fishX6 shrimpX8 riceX4 dksX6 zddsssadX5 3 12:11:32
+payment 84 12:11:33
+general-status 12:11:34
+general-status 12:12:00
+general-status 12:12:01
+general-status 12:12:02
+table-status 59 12:12:03
+table-status 71 12:12:04
+general-status 12:12:05
+general-status 12:12:06
+order pizzaX7 saladX12 sandwichX8 breadX10 steakX1 fishX1 shrimpX14 riceX19 dksX1 zddsssadX10 20 12:12:07
+general-status 12:12:08
+general-status 12:12:09
+general-status 12:12:10
+general-status 12:12:11
+table-status 85 12:12:12
+general-status 12:12:13
+general-status 12:12:14
+general-status 12:12:15
+order-status 2 12:12:16
+general-status 12:12:17
+general-status 12:12:18
+general-status 12:12:19
+order-status 7 12:12:20
+general-status 12:12:21
+order pizzaX15 saladX20 sandwichX7 breadX10 steakX12 fishX3 shrimpX11 riceX9 dksX15 zddsssadX8 3 12:12:22
+table-status 28 12:12:23
+payment 85 12:12:24
+general-status 12:12:25
+general-status 12:12:26
+table-status 60 12:12:27
+order-status 25 12:12:28
+general-status 12:12:29
+order pizzaX9 saladX9 sandwichX16 breadX6 steakX15 fishX4 shrimpX10 riceX11 dksX9 zddsssadX7 6 12:12:30
+payment 86 12:12:31
+general-status 12:12:32
+order-status 83 12:12:33
+order-status 18 12:12:34
+table-status 37 12:13:00
+order pizzaX11 saladX15 sandwichX10 breadX16 steakX7 fishX7 shrimpX14 riceX2 dksX6 zddsssadX6 14 12:13:01
+payment 87 12:13:02
+order pizzaX2 saladX15 sandwichX10 breadX2 steakX20 fishX1 shrimpX15 riceX12 dksX6 zddsssadX15 20 12:13:03
+general-status 12:13:04
+general-status 12:13:05
+order-status 35 12:13:06
+order-status 75 12:13:07
+general-status 12:13:08
+order pizzaX13 saladX1 sandwichX2 breadX17 steakX17 fishX4 shrimpX17 riceX14 dksX13 zddsssadX17 5 12:13:09
+general-status 12:13:10
+payment 88 12:13:11
+table-status 21 12:13:12
+general-status 12:13:13
+order pizzaX8 saladX9 sandwichX7 breadX16 steakX1 fishX13 shrimpX16 riceX11 dksX12 zddsssadX17 18 12:13:14
+order pizzaX10 saladX5 sandwichX5 breadX7 steakX8 fishX9 shrimpX18 riceX15 dksX15 zddsssadX7 16 12:13:15
+order pizzaX5 saladX18 sandwichX11 breadX9 steakX4 fishX16 shrimpX14 riceX10 dksX8 zddsssadX18 16 12:13:16
+order-status 85 12:13:17
+order pizzaX1 saladX11 sandwichX10 breadX10 steakX11 fishX10 shrimpX1 riceX12 dksX2 zddsssadX10 13 12:13:18
+payment 89 12:13:19
+general-status 12:13:20
+general-status 12:13:21
+order pizzaX16 saladX14 sandwichX10 breadX3 steakX6 fishX11 shrimpX11 riceX1 dksX13 zddsssadX3 15 12:13:22
+order pizzaX14 saladX14 sandwichX6 breadX2 steakX4 fishX3 shrimpX1 riceX10 dksX8 zddsssadX8 19 12:13:23
+payment 90 12:13:24
+order pizzaX14 saladX2 sandwichX16 breadX5 steakX20 fishX9 shrimpX12 riceX14 dksX2 zddsssadX3 3 12:13:25
+order pizzaX18 saladX12 sandwichX9 breadX16 steakX14 fishX18 shrimpX10 riceX13 dksX11 zddsssadX17 1 12:13:26
+table-status 94 12:13:27
+payment 92 12:13:28
+payment 91 12:13:29
+order pizzaX18 saladX6 sandwichX8 breadX10 steakX10 fishX11 shrimpX11 riceX3 dksX8 zddsssadX4 13 12:13:30
+general-status 12:13:31
+table-status 25 12:13:32
+general-status 12:13:33
+general-status 12:13:34
+order-status 61 12:14:00
+order pizzaX3 saladX18 sandwichX13 breadX10 steakX13 fishX19 shrimpX4 riceX14 dksX8 zddsssadX12 1 12:14:01
+payment 93 12:14:02
+payment 94 12:14:03
+general-status 12:14:04
+general-status 12:14:05
+general-status 12:14:06
+order pizzaX7 saladX12 sandwichX2 breadX14 steakX3 fishX3 shrimpX12 riceX18 dksX13 zddsssadX19 18 12:14:07
+order-status 90 12:14:08
+table-status 19 12:14:09
+general-status 12:14:10
+general-status 12:14:11
+table-status 47 12:14:12
+general-status 12:14:13
+order pizzaX13 saladX6 sandwichX1 breadX3 steakX12 fishX4 shrimpX2 riceX19 dksX20 zddsssadX8 7 12:14:14
+general-status 12:14:15
+payment 95 12:14:16
+general-status 12:14:17
+general-status 12:14:18
+general-status 12:14:19
+order-status 75 12:14:20
+order pizzaX3 saladX3 sandwichX10 breadX11 steakX9 fishX3 shrimpX20 riceX13 dksX17 zddsssadX12 5 12:14:21
+order pizzaX20 saladX19 sandwichX10 breadX16 steakX2 fishX20 shrimpX8 riceX15 dksX11 zddsssadX19 15 12:14:22
+payment 97 12:14:23
+order pizzaX4 saladX12 sandwichX4 breadX18 steakX7 fishX17 shrimpX20 riceX8 dksX1 zddsssadX18 4 12:14:24
+order-status 16 12:14:25
+payment 96 12:14:26
+general-status 12:14:27
+table-status 41 12:14:28
+payment 98 12:14:29
+table-status 28 12:14:30
+order pizzaX11 saladX3 sandwichX4 breadX16 steakX20 fishX14 shrimpX9 riceX15 dksX10 zddsssadX18 14 12:14:31
+payment 99 12:14:32
+order pizzaX14 saladX10 sandwichX4 breadX17 steakX18 fishX10 shrimpX8 riceX17 dksX3 zddsssadX6 18 12:14:33
+general-status 12:14:34
+general-status 12:15:00
+general-status 12:15:01
+general-status 12:15:02
+table-status 14 12:15:03
+table-status 52 12:15:04
+order-status 10 12:15:05
+general-status 12:15:06
+general-status 12:15:07
+order pizzaX14 saladX12 sandwichX9 breadX11 steakX19 fishX16 shrimpX8 riceX4 dksX9 zddsssadX16 17 12:15:08
+order-status 97 12:15:09
+general-status 12:15:10
+general-status 12:15:11
+general-status 12:15:12
+order pizzaX6 saladX10 sandwichX3 breadX10 steakX9 fishX4 shrimpX11 riceX12 dksX18 zddsssadX5 9 12:15:13
+payment 100 12:15:14
+general-status 12:15:15
+general-status 12:15:16
+general-status 12:15:17
+order-status 41 12:15:18
+order pizzaX5 saladX15 sandwichX14 breadX11 steakX1 fishX19 shrimpX10 riceX3 dksX8 zddsssadX2 10 12:15:19
+payment 101 12:15:20
+order pizzaX11 saladX7 sandwichX18 breadX5 steakX9 fishX12 shrimpX19 riceX9 dksX7 zddsssadX12 7 12:15:21
+order pizzaX9 saladX20 sandwichX13 breadX5 steakX8 fishX16 shrimpX15 riceX16 dksX19 zddsssadX9 17 12:15:22
+general-status 12:15:23
+payment 102 12:15:24
+general-status 12:15:25
+general-status 12:15:26
+general-status 12:15:27
+table-status 50 12:15:28
+general-status 12:15:29
+general-status 12:15:30
+table-status 33 12:15:31
+order pizzaX16 saladX1 sandwichX10 breadX20 steakX16 fishX4 shrimpX13 riceX20 dksX3 zddsssadX1 2 12:15:32
+payment 103 12:15:33
+general-status 12:15:34
+general-status 12:16:00
+order pizzaX14 saladX2 sandwichX15 breadX5 steakX16 fishX3 shrimpX15 riceX4 dksX16 zddsssadX10 3 12:16:01
+payment 104 12:16:02
+general-status 12:16:03
+general-status 12:16:04
+order-status 9 12:16:05
+general-status 12:16:06
+general-status 12:16:07
+order pizzaX3 saladX1 sandwichX4 breadX17 steakX6 fishX2 shrimpX2 riceX2 dksX2 zddsssadX20 7 12:16:08
+order pizzaX14 saladX10 sandwichX20 breadX6 steakX15 fishX6 shrimpX8 riceX18 dksX2 zddsssadX11 17 12:16:09
+payment 105 12:16:10
+general-status 12:16:11
+general-status 12:16:12
+table-status 72 12:16:13
+table-status 68 12:16:14
+general-status 12:16:15
+order pizzaX9 saladX8 sandwichX3 breadX3 steakX2 fishX11 shrimpX11 riceX13 dksX5 zddsssadX18 13 12:16:16
+payment 106 12:16:17
+general-status 12:16:18
+general-status 12:16:19
+general-status 12:16:20
+general-status 12:16:21
+order-status 44 12:16:22
+general-status 12:16:23
+general-status 12:16:24
+order pizzaX8 saladX20 sandwichX17 breadX18 steakX20 fishX11 shrimpX10 riceX14 dksX14 zddsssadX17 14 12:16:25
+general-status 12:16:26
+payment 107 12:16:27
+order pizzaX5 saladX19 sandwichX8 breadX16 steakX1 fishX7 shrimpX8 riceX6 dksX4 zddsssadX5 11 12:16:28
+payment 108 12:16:29
+general-status 12:16:30
+order pizzaX3 saladX7 sandwichX17 breadX15 steakX5 fishX18 shrimpX19 riceX10 dksX6 zddsssadX7 2 12:16:31
+payment 109 12:16:32
+general-status 12:16:33
+order pizzaX1 saladX8 sandwichX16 breadX19 steakX20 fishX19 shrimpX8 riceX8 dksX15 zddsssadX12 18 12:16:34
+general-status 12:17:00
+general-status 12:17:01
+table-status 24 12:17:02
+table-status 48 12:17:03
+order pizzaX2 saladX11 sandwichX16 breadX17 steakX16 fishX2 shrimpX8 riceX1 dksX5 zddsssadX17 19 12:17:04
+general-status 12:17:05
+general-status 12:17:06
+table-status 87 12:17:07
+general-status 12:17:08
+order pizzaX8 saladX14 sandwichX11 breadX8 steakX12 fishX17 shrimpX3 riceX5 dksX16 zddsssadX3 5 12:17:09
+order pizzaX11 saladX14 sandwichX17 breadX3 steakX14 fishX18 shrimpX20 riceX9 dksX12 zddsssadX4 11 12:17:10
+table-status 49 12:17:11
+payment 110 12:17:12
+order pizzaX3 saladX7 sandwichX15 breadX18 steakX9 fishX2 shrimpX6 riceX14 dksX3 zddsssadX12 2 12:17:13
+payment 112 12:17:14
+payment 111 12:17:15
+order pizzaX17 saladX2 sandwichX19 breadX13 steakX8 fishX5 shrimpX2 riceX3 dksX6 zddsssadX10 3 12:17:16
+table-status 63 12:17:17
+payment 113 12:17:18
+order-status 40 12:17:19
+general-status 12:17:20
+order pizzaX17 saladX19 sandwichX8 breadX15 steakX10 fishX4 shrimpX13 riceX20 dksX3 zddsssadX6 2 12:17:21
+payment 114 12:17:22
+order-status 98 12:17:23
+general-status 12:17:24
+general-status 12:17:25
+order-status 36 12:17:26
+general-status 12:17:27
+general-status 12:17:28
+order pizzaX17 saladX10 sandwichX19 breadX18 steakX8 fishX19 shrimpX9 riceX3 dksX15 zddsssadX9 14 12:17:29
+payment 115 12:17:30
+general-status 12:17:31
+general-status 12:17:32
+general-status 12:17:33
+general-status 12:17:34
+general-status 12:18:00
+general-status 12:18:01
+general-status 12:18:02
+general-status 12:18:03
+general-status 12:18:04
+general-status 12:18:05
+general-status 12:18:06
+general-status 12:18:07
+table-status 57 12:18:08
+general-status 12:18:09
+order pizzaX16 saladX17 sandwichX9 breadX3 steakX15 fishX13 shrimpX16 riceX18 dksX2 zddsssadX14 5 12:18:10
+general-status 12:18:11
+order pizzaX10 saladX8 sandwichX13 breadX17 steakX19 fishX6 shrimpX11 riceX4 dksX14 zddsssadX1 17 12:18:12
+table-status 5 12:18:13
+order pizzaX9 saladX14 sandwichX10 breadX17 steakX10 fishX10 shrimpX17 riceX13 dksX2 zddsssadX14 4 12:18:14
+payment 116 12:18:15
+order pizzaX9 saladX13 sandwichX8 breadX7 steakX4 fishX11 shrimpX20 riceX13 dksX13 zddsssadX16 18 12:18:16
+payment 117 12:18:17
+general-status 12:18:18
+order pizzaX18 saladX6 sandwichX19 breadX6 steakX7 fishX9 shrimpX15 riceX5 dksX18 zddsssadX9 14 12:18:19
+payment 118 12:18:20
+order pizzaX20 saladX15 sandwichX11 breadX11 steakX7 fishX18 shrimpX12 riceX15 dksX17 zddsssadX20 4 12:18:21
+order pizzaX3 saladX5 sandwichX4 breadX11 steakX1 fishX18 shrimpX15 riceX14 dksX2 zddsssadX9 10 12:18:22
+table-status 89 12:18:23
+general-status 12:18:24
+payment 119 12:18:25
+order pizzaX4 saladX1 sandwichX11 breadX3 steakX18 fishX16 shrimpX1 riceX14 dksX18 zddsssadX15 5 12:18:26
+payment 120 12:18:27
+payment 121 12:18:28
+general-status 12:18:29
+order pizzaX5 saladX7 sandwichX2 breadX19 steakX13 fishX15 shrimpX1 riceX15 dksX17 zddsssadX14 14 12:18:30
+order-status 105 12:18:31
+table-status 68 12:18:32
+payment 122 12:18:33
+general-status 12:18:34
+general-status 12:19:00
+general-status 12:19:01
+order pizzaX7 saladX6 sandwichX2 breadX14 steakX19 fishX2 shrimpX3 riceX4 dksX19 zddsssadX10 15 12:19:02
+order-status 53 12:19:03
+general-status 12:19:04
+payment 123 12:19:05
+table-status 45 12:19:06
+general-status 12:19:07
+general-status 12:19:08
+order-status 69 12:19:09
+general-status 12:19:10
+order pizzaX16 saladX1 sandwichX18 breadX18 steakX6 fishX2 shrimpX3 riceX17 dksX18 zddsssadX20 12 12:19:11
+order-status 85 12:19:12
+order pizzaX3 saladX7 sandwichX3 breadX12 steakX3 fishX6 shrimpX6 riceX6 dksX5 zddsssadX11 9 12:19:13
+payment 125 12:19:14
+general-status 12:19:15
+table-status 89 12:19:16
+general-status 12:19:17
+order pizzaX4 saladX6 sandwichX3 breadX9 steakX17 fishX11 shrimpX14 riceX8 dksX11 zddsssadX3 16 12:19:18
+table-status 94 12:19:19
+payment 124 12:19:20
+order-status 10 12:19:21
+order pizzaX7 saladX17 sandwichX19 breadX19 steakX6 fishX1 shrimpX2 riceX10 dksX6 zddsssadX15 7 12:19:22
+order pizzaX11 saladX2 sandwichX14 breadX1 steakX16 fishX11 shrimpX5 riceX7 dksX18 zddsssadX6 3 12:19:23
+order-status 19 12:19:24
+order-status 36 12:19:25
+table-status 97 12:19:26
+order pizzaX17 saladX4 sandwichX12 breadX11 steakX18 fishX5 shrimpX3 riceX13 dksX12 zddsssadX1 9 12:19:27
+general-status 12:19:28
+order pizzaX10 saladX2 sandwichX2 breadX15 steakX2 fishX1 shrimpX11 riceX3 dksX11 zddsssadX18 8 12:19:29
+order pizzaX6 saladX17 sandwichX14 breadX11 steakX15 fishX16 shrimpX1 riceX20 dksX20 zddsssadX12 8 12:19:30
+order pizzaX19 saladX14 sandwichX18 breadX14 steakX20 fishX5 shrimpX13 riceX8 dksX19 zddsssadX2 18 12:19:31
+order pizzaX5 saladX14 sandwichX10 breadX20 steakX3 fishX20 shrimpX14 riceX13 dksX9 zddsssadX9 2 12:19:32
+order pizzaX7 saladX14 sandwichX11 breadX14 steakX19 fishX17 shrimpX5 riceX5 dksX15 zddsssadX18 11 12:19:33
+general-status 12:19:34
+general-status 12:20:00
+payment 132 12:20:01
+table-status 22 12:20:02
+payment 131 12:20:03
+general-status 12:20:04
+order-status 65 12:20:05
+order-status 101 12:20:06
+order pizzaX18 saladX15 sandwichX1 breadX11 steakX19 fishX5 shrimpX3 riceX8 dksX6 zddsssadX3 12 12:20:07
+order pizzaX9 saladX12 sandwichX15 breadX17 steakX5 fishX20 shrimpX10 riceX9 dksX8 zddsssadX13 18 12:20:08
+general-status 12:20:09
+payment 133 12:20:10
+order pizzaX2 saladX4 sandwichX2 breadX5 steakX8 fishX7 shrimpX11 riceX7 dksX20 zddsssadX20 2 12:20:11
+order pizzaX18 saladX11 sandwichX7 breadX10 steakX3 fishX8 shrimpX12 riceX16 dksX17 zddsssadX1 1 12:20:12
+order pizzaX12 saladX13 sandwichX8 breadX20 steakX1 fishX4 shrimpX17 riceX6 dksX16 zddsssadX8 12 12:20:13
+payment 134 12:20:14
+payment 136 12:20:15
+table-status 94 12:20:16
+payment 130 12:20:17
+payment 129 12:20:18
+payment 128 12:20:19
+order pizzaX8 saladX5 sandwichX4 breadX1 steakX4 fishX12 shrimpX4 riceX19 dksX5 zddsssadX5 3 12:20:20
+table-status 42 12:20:21
+order-status 60 12:20:22
+general-status 12:20:23
+payment 127 12:20:24
+order pizzaX7 saladX9 sandwichX15 breadX2 steakX11 fishX13 shrimpX1 riceX16 dksX7 zddsssadX14 16 12:20:25
+order pizzaX6 saladX20 sandwichX20 breadX7 steakX12 fishX7 shrimpX1 riceX1 dksX8 zddsssadX13 14 12:20:26
+payment 138 12:20:27
+order pizzaX4 saladX7 sandwichX10 breadX20 steakX13 fishX7 shrimpX5 riceX16 dksX19 zddsssadX3 12 12:20:28
+general-status 12:20:29
+payment 137 12:20:30
+payment 139 12:20:31
+table-status 37 12:20:32
+order-status 70 12:20:33
+order pizzaX10 saladX7 sandwichX16 breadX8 steakX5 fishX7 shrimpX18 riceX7 dksX14 zddsssadX6 5 12:20:34
+payment 126 12:21:00
+payment 140 12:21:01
+general-status 12:21:02
+payment 135 12:21:03
+general-status 12:21:04
+order pizzaX18 saladX15 sandwichX12 breadX2 steakX7 fishX12 shrimpX1 riceX3 dksX20 zddsssadX18 10 12:21:05
+payment 141 12:21:06
+general-status 12:21:07
+order pizzaX12 saladX16 sandwichX18 breadX16 steakX10 fishX4 shrimpX2 riceX3 dksX4 zddsssadX16 19 12:21:08
+table-status 89 12:21:09
+general-status 12:21:10
+order pizzaX11 saladX12 sandwichX20 breadX1 steakX17 fishX5 shrimpX8 riceX3 dksX11 zddsssadX20 11 12:21:11
+general-status 12:21:12
+table-status 30 12:21:13
+payment 142 12:21:14
+general-status 12:21:15
+general-status 12:21:16
+order pizzaX9 saladX10 sandwichX14 breadX5 steakX1 fishX7 shrimpX17 riceX12 dksX11 zddsssadX8 8 12:21:17
+order pizzaX6 saladX20 sandwichX17 breadX9 steakX19 fishX2 shrimpX10 riceX2 dksX15 zddsssadX13 13 12:21:18
+payment 144 12:21:19
+table-status 11 12:21:20
+payment 143 12:21:21
+order-status 123 12:21:22
+order pizzaX10 saladX18 sandwichX11 breadX6 steakX16 fishX5 shrimpX16 riceX5 dksX16 zddsssadX3 14 12:21:23
+payment 145 12:21:24
+order-status 91 12:21:25
+order pizzaX14 saladX6 sandwichX17 breadX8 steakX15 fishX7 shrimpX10 riceX14 dksX2 zddsssadX8 9 12:21:26
+order pizzaX14 saladX6 sandwichX16 breadX19 steakX17 fishX2 shrimpX15 riceX17 dksX13 zddsssadX3 17 12:21:27
+payment 146 12:21:28
+order-status 100 12:21:29
+order pizzaX3 saladX18 sandwichX20 breadX5 steakX5 fishX8 shrimpX2 riceX16 dksX7 zddsssadX10 17 12:21:30
+order pizzaX11 saladX9 sandwichX13 breadX18 steakX12 fishX10 shrimpX16 riceX17 dksX19 zddsssadX8 15 12:21:31
+order pizzaX4 saladX13 sandwichX8 breadX5 steakX19 fishX12 shrimpX9 riceX18 dksX20 zddsssadX16 20 12:21:32
+table-status 55 12:21:33
+table-status 70 12:21:34
+order pizzaX16 saladX14 sandwichX20 breadX14 steakX14 fishX15 shrimpX13 riceX17 dksX13 zddsssadX17 10 12:22:00
+table-status 64 12:22:01
+order pizzaX20 saladX12 sandwichX8 breadX8 steakX9 fishX16 shrimpX1 riceX10 dksX6 zddsssadX7 9 12:22:02
+payment 149 12:22:03
+payment 148 12:22:04
+table-status 70 12:22:05
+table-status 79 12:22:06
+order pizzaX3 saladX18 sandwichX4 breadX7 steakX4 fishX3 shrimpX14 riceX7 dksX9 zddsssadX15 16 12:22:07
+order-status 17 12:22:08
+table-status 44 12:22:09
+general-status 12:22:10
+order-status 34 12:22:11
+general-status 12:22:12
+payment 147 12:22:13
+general-status 12:22:14
+table-status 7 12:22:15
+general-status 12:22:16
+general-status 12:22:17
+order pizzaX3 saladX2 sandwichX15 breadX13 steakX17 fishX18 shrimpX12 riceX10 dksX3 zddsssadX12 2 12:22:18
+payment 150 12:22:19
+table-status 99 12:22:20
+general-status 12:22:21
+general-status 12:22:22
+general-status 12:22:23
+table-status 60 12:22:24
+general-status 12:22:25
+general-status 12:22:26
+order pizzaX7 saladX15 sandwichX4 breadX2 steakX16 fishX4 shrimpX17 riceX3 dksX5 zddsssadX10 6 12:22:27
+payment 151 12:22:28
+general-status 12:22:29
+table-status 82 12:22:30
+order pizzaX10 saladX15 sandwichX20 breadX2 steakX1 fishX15 shrimpX8 riceX1 dksX7 zddsssadX6 19 12:22:31
+order pizzaX13 saladX13 sandwichX14 breadX5 steakX14 fishX12 shrimpX15 riceX1 dksX12 zddsssadX3 2 12:22:32
+order-status 89 12:22:33
+payment 152 12:22:34
+general-status 12:23:00
+order pizzaX6 saladX8 sandwichX15 breadX2 steakX17 fishX20 shrimpX4 riceX4 dksX16 zddsssadX7 15 12:23:01
+payment 153 12:23:02
+general-status 12:23:03
+general-status 12:23:04
+order-status 33 12:23:05
+order pizzaX19 saladX13 sandwichX2 breadX19 steakX3 fishX8 shrimpX7 riceX8 dksX11 zddsssadX10 17 12:23:06
+order pizzaX12 saladX14 sandwichX12 breadX17 steakX8 fishX8 shrimpX19 riceX11 dksX7 zddsssadX17 20 12:23:07
+general-status 12:23:08
+order pizzaX17 saladX3 sandwichX9 breadX20 steakX10 fishX11 shrimpX18 riceX13 dksX7 zddsssadX20 18 12:23:09
+general-status 12:23:10
+table-status 57 12:23:11
+order-status 128 12:23:12
+order pizzaX2 saladX5 sandwichX13 breadX11 steakX17 fishX16 shrimpX18 riceX10 dksX16 zddsssadX8 13 12:23:13
+payment 154 12:23:14
+general-status 12:23:15
+order-status 115 12:23:16
+order-status 114 12:23:17
+table-status 66 12:23:18
+general-status 12:23:19
+general-status 12:23:20
+general-status 12:23:21
+order pizzaX17 saladX1 sandwichX18 breadX13 steakX15 fishX9 shrimpX14 riceX15 dksX16 zddsssadX16 1 12:23:22
+payment 155 12:23:23
+order-status 42 12:23:24
+general-status 12:23:25
+general-status 12:23:26
+general-status 12:23:27
+general-status 12:23:28
+general-status 12:23:29
+table-status 82 12:23:30
+order pizzaX11 saladX5 sandwichX8 breadX3 steakX18 fishX3 shrimpX14 riceX12 dksX17 zddsssadX20 13 12:23:31
+payment 156 12:23:32
+general-status 12:23:33
+general-status 12:23:34
+order pizzaX7 saladX2 sandwichX17 breadX14 steakX13 fishX7 shrimpX6 riceX11 dksX15 zddsssadX8 11 12:24:00
+general-status 12:24:01
+payment 157 12:24:02
+order pizzaX5 saladX9 sandwichX19 breadX6 steakX14 fishX15 shrimpX16 riceX15 dksX20 zddsssadX1 3 12:24:03
+payment 158 12:24:04
+order pizzaX11 saladX12 sandwichX14 breadX9 steakX8 fishX17 shrimpX13 riceX15 dksX11 zddsssadX14 12 12:24:05
+payment 159 12:24:06
+general-status 12:24:07
+order pizzaX17 saladX6 sandwichX13 breadX16 steakX18 fishX4 shrimpX9 riceX13 dksX3 zddsssadX13 20 12:24:08
+table-status 43 12:24:09
+order pizzaX6 saladX19 sandwichX3 breadX1 steakX5 fishX17 shrimpX14 riceX2 dksX12 zddsssadX7 1 12:24:10
+payment 160 12:24:11
+general-status 12:24:12
+table-status 83 12:24:13
+order pizzaX1 saladX3 sandwichX12 breadX8 steakX8 fishX11 shrimpX18 riceX19 dksX18 zddsssadX7 2 12:24:14
+order pizzaX8 saladX5 sandwichX2 breadX18 steakX6 fishX6 shrimpX17 riceX4 dksX2 zddsssadX18 18 12:24:15
+order pizzaX9 saladX9 sandwichX10 breadX6 steakX12 fishX3 shrimpX12 riceX20 dksX20 zddsssadX4 20 12:24:16
+order pizzaX19 saladX7 sandwichX13 breadX20 steakX1 fishX17 shrimpX10 riceX1 dksX1 zddsssadX10 3 12:24:17
+general-status 12:24:18
+order pizzaX11 saladX15 sandwichX17 breadX15 steakX18 fishX15 shrimpX15 riceX13 dksX7 zddsssadX14 6 12:24:19
+order pizzaX4 saladX3 sandwichX18 breadX11 steakX20 fishX6 shrimpX5 riceX13 dksX15 zddsssadX20 6 12:24:20
+payment 161 12:24:21
+general-status 12:24:22
+payment 164 12:24:23
+payment 163 12:24:24
+payment 162 12:24:25
+general-status 12:24:26
+general-status 12:24:27
+general-status 12:24:28
+order-status 37 12:24:29
+order pizzaX10 saladX6 sandwichX14 breadX12 steakX5 fishX1 shrimpX4 riceX16 dksX3 zddsssadX5 7 12:24:30
+order-status 124 12:24:31
+order-status 151 12:24:32
+payment 165 12:24:33
+order pizzaX11 saladX10 sandwichX11 breadX6 steakX3 fishX3 shrimpX3 riceX4 dksX1 zddsssadX16 16 12:24:34
+general-status 12:25:00
+order pizzaX7 saladX8 sandwichX3 breadX3 steakX5 fishX1 shrimpX11 riceX2 dksX9 zddsssadX8 5 12:25:01
+order pizzaX20 saladX9 sandwichX2 breadX9 steakX10 fishX8 shrimpX4 riceX20 dksX5 zddsssadX19 4 12:25:02
+order-status 44 12:25:03
+table-status 39 12:25:04
+order pizzaX20 saladX15 sandwichX7 breadX12 steakX8 fishX1 shrimpX12 riceX14 dksX19 zddsssadX16 18 12:25:05
+general-status 12:25:06
+payment 166 12:25:07
+order-status 33 12:25:08
+payment 167 12:25:09
+order-status 66 12:25:10
+order pizzaX5 saladX3 sandwichX16 breadX10 steakX16 fishX4 shrimpX6 riceX2 dksX10 zddsssadX5 18 12:25:11
+table-status 91 12:25:12
+general-status 12:25:13
+general-status 12:25:14
+general-status 12:25:15
+order pizzaX14 saladX5 sandwichX15 breadX17 steakX5 fishX8 shrimpX16 riceX9 dksX18 zddsssadX16 4 12:25:16
+payment 168 12:25:17
+general-status 12:25:18
+order pizzaX19 saladX7 sandwichX5 breadX3 steakX6 fishX19 shrimpX9 riceX18 dksX3 zddsssadX11 3 12:25:19
+order pizzaX14 saladX12 sandwichX9 breadX5 steakX11 fishX12 shrimpX7 riceX18 dksX18 zddsssadX2 8 12:25:20
+order-status 123 12:25:21
+payment 169 12:25:22
+order-status 26 12:25:23
+payment 170 12:25:24
+general-status 12:25:25
+general-status 12:25:26
+order-status 136 12:25:27
+table-status 71 12:25:28
+table-status 74 12:25:29
+order pizzaX19 saladX11 sandwichX11 breadX19 steakX12 fishX20 shrimpX9 riceX19 dksX16 zddsssadX16 7 12:25:30
+general-status 12:25:31
+payment 171 12:25:32
+order-status 26 12:25:33
+order pizzaX18 saladX3 sandwichX14 breadX9 steakX16 fishX5 shrimpX10 riceX16 dksX6 zddsssadX18 6 12:25:34
+general-status 12:26:00
+order-status 73 12:26:01
+payment 172 12:26:02
+order-status 53 12:26:03
+order pizzaX7 saladX13 sandwichX13 breadX17 steakX14 fishX16 shrimpX6 riceX20 dksX14 zddsssadX13 18 12:26:04
+table-status 1 12:26:05
+general-status 12:26:06
+general-status 12:26:07
+order pizzaX19 saladX19 sandwichX13 breadX15 steakX15 fishX4 shrimpX2 riceX7 dksX8 zddsssadX12 15 12:26:08
+order pizzaX1 saladX20 sandwichX18 breadX10 steakX10 fishX7 shrimpX13 riceX18 dksX18 zddsssadX9 2 12:26:09
+payment 174 12:26:10
+order pizzaX9 saladX3 sandwichX17 breadX12 steakX18 fishX3 shrimpX9 riceX9 dksX13 zddsssadX8 9 12:26:11
+payment 175 12:26:12
+general-status 12:26:13
+payment 173 12:26:14
+table-status 69 12:26:15
+general-status 12:26:16
+table-status 47 12:26:17
+order pizzaX15 saladX13 sandwichX13 breadX14 steakX12 fishX14 shrimpX11 riceX1 dksX5 zddsssadX16 5 12:26:18
+table-status 78 12:26:19
+payment 176 12:26:20
+table-status 69 12:26:21
+order pizzaX4 saladX11 sandwichX19 breadX1 steakX11 fishX19 shrimpX9 riceX11 dksX17 zddsssadX14 17 12:26:22
+table-status 27 12:26:23
+general-status 12:26:24
+table-status 30 12:26:25
+order pizzaX18 saladX18 sandwichX5 breadX18 steakX19 fishX7 shrimpX17 riceX2 dksX20 zddsssadX18 7 12:26:26
+general-status 12:26:27
+payment 177 12:26:28
+order-status 121 12:26:29
+table-status 38 12:26:30
+order pizzaX17 saladX1 sandwichX16 breadX10 steakX10 fishX16 shrimpX17 riceX3 dksX6 zddsssadX18 10 12:26:31
+order pizzaX16 saladX17 sandwichX3 breadX20 steakX19 fishX20 shrimpX14 riceX15 dksX13 zddsssadX10 14 12:26:32
+general-status 12:26:33
+general-status 12:26:34
+table-status 10 12:27:00
+order pizzaX17 saladX2 sandwichX5 breadX2 steakX7 fishX2 shrimpX13 riceX20 dksX5 zddsssadX13 5 12:27:01
+table-status 42 12:27:02
+order pizzaX16 saladX1 sandwichX13 breadX4 steakX5 fishX13 shrimpX14 riceX19 dksX17 zddsssadX19 14 12:27:03
+table-status 13 12:27:04
+table-status 99 12:27:05
+payment 181 12:27:06
+order pizzaX9 saladX13 sandwichX7 breadX16 steakX13 fishX19 shrimpX15 riceX5 dksX4 zddsssadX17 12 12:27:07
+order-status 38 12:27:08
+order pizzaX10 saladX13 sandwichX3 breadX19 steakX18 fishX7 shrimpX8 riceX17 dksX1 zddsssadX17 2 12:27:09
+general-status 12:27:10
+payment 182 12:27:11
+order pizzaX14 saladX18 sandwichX8 breadX7 steakX16 fishX5 shrimpX8 riceX19 dksX8 zddsssadX15 7 12:27:12
+general-status 12:27:13
+payment 183 12:27:14
+order pizzaX9 saladX17 sandwichX16 breadX19 steakX18 fishX2 shrimpX4 riceX12 dksX16 zddsssadX10 1 12:27:15
+table-status 7 12:27:16
+order-status 9 12:27:17
+order pizzaX8 saladX8 sandwichX7 breadX16 steakX9 fishX12 shrimpX10 riceX12 dksX20 zddsssadX13 12 12:27:18
+order pizzaX8 saladX1 sandwichX4 breadX10 steakX11 fishX3 shrimpX16 riceX12 dksX7 zddsssadX18 17 12:27:19
+payment 184 12:27:20
+general-status 12:27:21
+payment 185 12:27:22
+general-status 12:27:23
+order pizzaX5 saladX7 sandwichX13 breadX11 steakX8 fishX14 shrimpX11 riceX5 dksX17 zddsssadX7 20 12:27:24
+order pizzaX4 saladX8 sandwichX2 breadX1 steakX6 fishX4 shrimpX16 riceX19 dksX11 zddsssadX8 19 12:27:25
+table-status 53 12:27:26
+payment 180 12:27:27
+general-status 12:27:28
+order pizzaX8 saladX2 sandwichX5 breadX9 steakX4 fishX2 shrimpX3 riceX12 dksX6 zddsssadX1 18 12:27:29
+order pizzaX4 saladX8 sandwichX9 breadX12 steakX9 fishX19 shrimpX19 riceX13 dksX5 zddsssadX9 16 12:27:30
+order pizzaX9 saladX20 sandwichX1 breadX18 steakX11 fishX14 shrimpX8 riceX1 dksX19 zddsssadX2 5 12:27:31
+general-status 12:27:32
+general-status 12:27:33
+general-status 12:27:34
+table-status 17 12:28:00
+order-status 11 12:28:01
+order pizzaX18 saladX18 sandwichX1 breadX4 steakX6 fishX9 shrimpX15 riceX17 dksX16 zddsssadX7 5 12:28:02
+order-status 16 12:28:03
+payment 187 12:28:04
+payment 188 12:28:05
+table-status 36 12:28:06
+payment 179 12:28:07
+payment 178 12:28:08
+table-status 5 12:28:09
+payment 186 12:28:10
+order pizzaX20 saladX18 sandwichX18 breadX4 steakX17 fishX8 shrimpX11 riceX12 dksX9 zddsssadX17 12 12:28:11
+payment 189 12:28:12
+general-status 12:28:13
+table-status 35 12:28:14
+order-status 189 12:28:15
+table-status 34 12:28:16
+general-status 12:28:17
+general-status 12:28:18
+table-status 53 12:28:19
+general-status 12:28:20

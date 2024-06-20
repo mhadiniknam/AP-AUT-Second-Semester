@@ -1,0 +1,10 @@
+0 0 0 0 0 5 0 0
+please sit at table number 5.
+you should pay 24 Toman.
+24 0 0 0 1 4 1 0
+please sit at table number 1.
+DONE
+DONE
+please sit at table number 5.
+not enough seat.
+you should pay 30 Toman.

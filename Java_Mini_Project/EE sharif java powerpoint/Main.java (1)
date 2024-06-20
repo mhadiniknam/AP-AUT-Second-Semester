@@ -1,0 +1,175 @@
+import java.lang.reflect.Array;
+import java.util.*;
+
+public class Main {
+    static Set<String> shaer = new HashSet<>();
+    static Scanner scan = new Scanner(System.in);
+    static String ghaleb = new String();
+    static ArrayList<String> ghafie = new ArrayList<>();
+    static ArrayList<String> radif = new ArrayList<>();
+    static String radifA = new String();
+    static String[] ghafieA = new String[2];
+    public static void main(String[] args) {
+        shaer.addAll(Arrays.asList(new String[]{"saadi", "attar", "shahriar", "khamoosh", "khamesh", "taher", "khaiam", "parvin", "shams", "saieh", "sanaee", "nezami", "hafez"}));
+        String takhlos = new String("not found");
+        boolean zojiat = false;
+        ArrayList<String> mesraee = new ArrayList<>();
+        ArrayList<ArrayList<String>> beitF = new ArrayList<>();
+        ArrayList<ArrayList<String>> beitZ = new ArrayList<>();
+        String input = new String();
+        ArrayList<String> sher = new ArrayList<>();
+        ghaleb = scan.nextLine();
+        while (true){
+            input = scan.nextLine();
+            if(input.equals("end"))
+                break;
+            mesraee.addAll(Arrays.asList(input.split(" ")));
+            sher.addAll(mesraee);
+            if(zojiat) {
+                beitZ.add(mesraee);
+            } else {
+                beitF.add(mesraee);
+            }
+            zojiat = !zojiat;
+            mesraee = new ArrayList<>();
+        }
+        switch (ghaleb){
+            case "masnavi" :
+                for (int i = 0; i <beitZ.size() ; i++) {
+                    checkMesraee(beitF.get(i), beitZ.get(i));
+                    if(radifA.length()!=0)
+                        radif.add(radifA);
+                    ghafie.addAll(List.of(ghafieA));
+                }
+                break;
+            case "ghazal" :
+                checkMesraee(beitF.get(0), beitZ.get(0));
+                ghafie.addAll(List.of(ghafieA));
+                if(radifA.length()!=0)
+                    radif.add(radifA);
+                for (int i = 1; i < beitZ.size(); i++) {
+                    checkMesraee(beitF.get(0),beitZ.get(i));
+                    ghafie.add(ghafieA[1]);
+                    if (radif.size()!=0) {
+                        if (radifA.length() == 0)
+                            radif.clear();
+                        else if (!radifA.equals(radif.get(0)))
+                            radif.clear();
+                    }
+                }
+                break;
+            case "ghasideh" :
+                checkMesraee(beitF.get(0), beitZ.get(0));
+                ghafie.addAll(List.of(ghafieA));
+                if(radifA.length()!=0)
+                    radif.add(radifA);
+                for (int i = 1; i < beitZ.size(); i++) {
+                    checkMesraee(beitF.get(0),beitZ.get(i));
+                    ghafie.add(ghafieA[1]);
+                    if (radif.size()!=0) {
+                        if (radifA.length() == 0)
+                            radif.clear();
+                        else if (!radifA.equals(radif.get(0)))
+                            radif.clear();
+                    }
+                }
+                break;
+            case "dobeiti" :
+                checkMesraee(beitF.get(0), beitZ.get(0));
+                ghafie.addAll(List.of(ghafieA));
+                if(radifA.length()!=0)
+                    radif.add(radifA);
+                for (int i = 1; i < beitZ.size(); i++) {
+                    checkMesraee(beitF.get(0),beitZ.get(i));
+                    ghafie.add(ghafieA[1]);
+                    if (radif.size()!=0) {
+                        if (radifA.length() == 0)
+                            radif.clear();
+                        else if (!radifA.equals(radif.get(0)))
+                            radif.clear();
+                    }
+                }
+                break;
+            case "robaee" :
+                checkMesraee(beitF.get(0), beitZ.get(0));
+                ghafie.addAll(List.of(ghafieA));
+                if(radifA.length()!=0)
+                    radif.add(radifA);
+                for (int i = 1; i < beitZ.size(); i++) {
+                    checkMesraee(beitF.get(0),beitZ.get(i));
+                    ghafie.add(ghafieA[1]);
+                    if (radif.size()!=0) {
+                        if (radifA.length() == 0)
+                            radif.clear();
+                        else if (!radifA.equals(radif.get(0)))
+                            radif.clear();
+                    }
+                }
+                break;
+            case "gheteh" :
+                for (int i = 1; i < beitZ.size(); i++) {
+                    checkMesraee(beitZ.get(0),beitZ.get(i));
+                    if(ghafie.size()==0) {
+                        ghafie.addAll(List.of(ghafieA));
+                        radif.add(radifA);
+                    } else {
+                        ghafie.add(ghafieA[1]);
+                        if (radif.size() != 0) {
+                            if (radifA.length() == 0)
+                                radif.clear();
+                            else if (!radifA.equals(radif.get(0)))
+                                radif.clear();
+                        }
+                    }
+                }
+                break;
+        }
+        for (String s : shaer) {
+            if(sher.contains(s))
+                takhlos = s;
+        }
+        System.out.print("ghafieh : [");
+        for (int i = 0; i < ghafie.size(); i++) {
+            System.out.print(ghafie.get(i));
+            if(i!=ghafie.size()-1)
+                System.out.print(", ");
+            else System.out.println("]");
+        }
+        System.out.print("radif : [");
+        for (int i = 0; i < radif.size(); i++) {
+            System.out.print(radif.get(i));
+            if(i!=radif.size()-1)
+                System.out.print(", ");
+            else System.out.println("]");
+        }
+        if(radif.size()==0)
+            System.out.println("]");
+        System.out.println("takhalos : "+takhlos);
+    }
+    static void checkMesraee(ArrayList<String> beit1, ArrayList<String> beit2){
+        String r = new String("");
+        int i,size1,size2;
+        i=1;
+        size1 = beit1.size();
+        size2 = beit2.size();
+        while (true){
+            if((i>size1)||(i>size2)){
+                return;
+            }
+            if(beit1.get(size1-i).equals(beit2.get(size2-i))){
+                if(r.length()==0)
+                    r=beit1.get(size1-i);
+                else r = beit1.get(size1-i) + " " + r;
+                i++;
+                continue;
+            }
+            radifA = r;
+            break;
+        }
+        if((i>size1)||(i>size2)){
+            return;
+        }
+        ghafieA[0]=beit1.get(size1-i);
+        ghafieA[1]=beit2.get(size2-i);
+    }
+}

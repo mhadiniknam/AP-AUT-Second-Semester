@@ -1,0 +1,10 @@
+0 0 0 0 0 5 0 0
+not enough seat.
+please sit at table number 1.
+please sit at table number 2.
+please wait for free table.
+please wait for free table.
+EATING
+please wait for free table.
+please sit at table number 5.
+pays after eating.

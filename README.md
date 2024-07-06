@@ -2,7 +2,9 @@
 
 Reach out to this link for instructional Materials
 - https://github.com/federico-busato/Modern-CPP-Programming/
-
+  
+  also this link for AUT CE department materials
+  https://github.com/aut-ce/CE104-AP
 ## Some C++ documentation 
 - https://cplusplus.com/
 - https://en.cppreference.com
